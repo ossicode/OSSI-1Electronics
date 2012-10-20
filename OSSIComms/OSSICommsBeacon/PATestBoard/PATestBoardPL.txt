@@ -1,0 +1,26 @@
+Partlist
+
+Exported from OSSIBeaconPA.sch at 2012-04-14 ¿ÀÀü 11:28:35
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device             Package         Library  Sheet
+
+C7       13pF(4~25pF)       C-TRIMM            TZB4Z250BA10R00 OSSI     1
+C18      TBD                C0603(1608)        C0603(1608)     OSSI     1
+C71      10nF               C0603(1608)        C0603(1608)     OSSI     1
+C72      10nF               C0603(1608)        C0603(1608)     OSSI     1
+C73      10nF               C0603(1608)        C0603(1608)     OSSI     1
+F1       LFCN-160           LFCN-160           LFCN            OSSI     1
+H1       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND   OSSI     1
+H2       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND   OSSI     1
+H3       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND   OSSI     1
+H4       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND   OSSI     1
+L1       470nH, 1008 size   L1008(2502)        L1008(2520)     OSSI     1
+U13      ADL5530            ADL5530            LFCSP8_CP       OSSI     1
+X1       RFCON-SMA-V        RFCON-SMA-V        SMA-V           OSSI     1
+X2       P-PAD              P-PAD              P-PAD           OSSI     1
+X3       P-PAD              P-PAD              P-PAD           OSSI     1
+X4       RFCON-SMA-V        RFCON-SMA-V        SMA-V           OSSI     1
