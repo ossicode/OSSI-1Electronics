@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.12" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1440,17 +1440,16 @@ please refer to datasheets for via holes and recommended land patterns</descript
 <circle x="-1.525" y="-1.225" radius="0.22360625" width="0.127" layer="27"/>
 </package>
 <package name="LFCSP8_CP">
-<description>&lt;b&gt;8-Lead Lead Frame Chip Scale Package&lt;/b&gt; LFCSP_WD 2 mm × 2 mm Body, Very Very Thin, Dual Lead&lt;p&gt;
-Source: http://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf&lt;br /&gt;
+<description>&lt;b&gt;8-Lead Lead Frame Chip Scale Package&lt;/b&gt; LFCSP_VD &lt;br /&gt;
 Plase refer to datasheet for recommend ground pattern!!</description>
-<smd name="1" x="-0.9" y="0.75" dx="0.73" dy="0.33" layer="1" stop="no"/>
-<smd name="2" x="-0.9" y="0.25" dx="0.73" dy="0.33" layer="1" roundness="75" stop="no"/>
-<smd name="3" x="-0.9" y="-0.25" dx="0.73" dy="0.33" layer="1" roundness="75" stop="no"/>
-<smd name="4" x="-0.9" y="-0.75" dx="0.73" dy="0.33" layer="1" roundness="75" stop="no"/>
-<smd name="5" x="0.9" y="-0.75" dx="0.73" dy="0.33" layer="1" roundness="75" stop="no"/>
-<smd name="6" x="0.9" y="-0.25" dx="0.73" dy="0.33" layer="1" roundness="75" stop="no"/>
-<smd name="7" x="0.9" y="0.25" dx="0.73" dy="0.33" layer="1" roundness="75" stop="no"/>
-<smd name="8" x="0.9" y="0.75" dx="0.73" dy="0.33" layer="1" roundness="75" stop="no"/>
+<smd name="1" x="-1.27" y="0.75" dx="0.73" dy="0.3" layer="1" stop="no"/>
+<smd name="2" x="-1.27" y="0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
+<smd name="3" x="-1.27" y="-0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
+<smd name="4" x="-1.27" y="-0.75" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
+<smd name="5" x="1.27" y="-0.75" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
+<smd name="6" x="1.27" y="-0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
+<smd name="7" x="1.27" y="0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
+<smd name="8" x="1.27" y="0.75" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
 <text x="-1.2776" y="1.676" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.2526" y="-3.079" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-0.4" y="1.07" radius="0.15" width="0.127" layer="21"/>
@@ -1458,14 +1457,14 @@ Plase refer to datasheet for recommend ground pattern!!</description>
 <wire x1="1" y1="1.5" x2="1" y2="-1.5" width="0.1524" layer="21"/>
 <wire x1="-1" y1="-1.5" x2="1" y2="-1.5" width="0.1524" layer="21"/>
 <wire x1="-1" y1="1.5" x2="1" y2="1.5" width="0.1524" layer="21"/>
-<rectangle x1="-1.35" y1="0.04" x2="-0.48" y2="0.46" layer="29"/>
-<rectangle x1="-1.35" y1="0.54" x2="-0.48" y2="0.96" layer="29"/>
-<rectangle x1="-1.35" y1="-0.46" x2="-0.48" y2="-0.04" layer="29"/>
-<rectangle x1="-1.35" y1="-0.96" x2="-0.48" y2="-0.54" layer="29"/>
-<rectangle x1="0.45" y1="0.04" x2="1.32" y2="0.46" layer="29"/>
-<rectangle x1="0.45" y1="0.54" x2="1.32" y2="0.96" layer="29"/>
-<rectangle x1="0.45" y1="-0.46" x2="1.32" y2="-0.04" layer="29"/>
-<rectangle x1="0.45" y1="-0.96" x2="1.32" y2="-0.54" layer="29"/>
+<rectangle x1="-1.72" y1="0.04" x2="-0.85" y2="0.46" layer="29"/>
+<rectangle x1="-1.72" y1="0.54" x2="-0.85" y2="0.96" layer="29"/>
+<rectangle x1="-1.72" y1="-0.46" x2="-0.85" y2="-0.04" layer="29"/>
+<rectangle x1="-1.72" y1="-0.96" x2="-0.85" y2="-0.54" layer="29"/>
+<rectangle x1="0.82" y1="0.04" x2="1.69" y2="0.46" layer="29"/>
+<rectangle x1="0.82" y1="0.54" x2="1.69" y2="0.96" layer="29"/>
+<rectangle x1="0.82" y1="-0.46" x2="1.69" y2="-0.04" layer="29"/>
+<rectangle x1="0.82" y1="-0.96" x2="1.69" y2="-0.54" layer="29"/>
 </package>
 <package name="QFN-10-POWERPAD">
 <wire x1="1.5" y1="1.5" x2="1.5" y2="1.025" width="0.1016" layer="21"/>
