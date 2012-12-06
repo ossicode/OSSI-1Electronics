@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.12" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -588,6 +588,7 @@ Digikey Part Number: MHB14K-ND&lt;br /&gt;</description>
 <rectangle x1="-3.6766" y1="2.25" x2="-3.4734" y2="3.121" layer="51"/>
 </package>
 <package name="PW28">
+<description>*** TI: DW *** JEDEC: R-PDSO-G28 *** 28 PINS ***</description>
 <wire x1="-4.879" y1="-2.208" x2="-4.879" y2="2.192" width="0.127" layer="21"/>
 <wire x1="-4.879" y1="2.192" x2="4.821" y2="2.192" width="0.127" layer="21"/>
 <wire x1="4.821" y1="2.192" x2="4.821" y2="-2.208" width="0.127" layer="21"/>
@@ -30810,6 +30811,71 @@ Source: http://www.maxim-ic.com/cgi-bin/packages?pkg=16%2FSOIC%2E300&amp;Type=Ma
 <pin name="-" x="5.08" y="0" visible="off" length="short" direction="pwr" rot="R180"/>
 <pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pwr"/>
 </symbol>
+<symbol name="F21X2---PW28">
+<wire x1="15.24" y1="20.32" x2="15.24" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="15.24" y1="20.32" x2="-17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-21.59" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-21.59" x2="15.24" y2="-21.59" width="0.254" layer="94"/>
+<circle x="-15.24" y="17.78" radius="1.27" width="0.254" layer="94"/>
+<text x="-16.51" y="15.24" size="1.016" layer="95" font="vector">TEST/SBWTCK</text>
+<text x="-16.51" y="12.7" size="1.016" layer="95" font="vector">DVcc</text>
+<text x="-16.51" y="10.16" size="1.016" layer="95" font="vector">P2.5/Rosc/CA5</text>
+<text x="-16.51" y="7.62" size="1.016" layer="95" font="vector">DVss</text>
+<text x="-16.51" y="5.08" size="1.016" layer="95" font="vector">XOUT/P2.7/CA7</text>
+<text x="-16.51" y="2.54" size="1.016" layer="95" font="vector">XIN/P2.6/CA6</text>
+<text x="-16.51" y="0" size="1.016" layer="95" font="vector">RST/NMI/SBWTDIO</text>
+<text x="-16.51" y="-2.54" size="1.016" layer="95" font="vector">P2.0/ACLK/A0/CA2</text>
+<text x="-16.51" y="-5.08" size="1.016" layer="95" font="vector">P2.1/TAINCLK/...</text>
+<text x="-16.51" y="-7.62" size="1.016" layer="95" font="vector">P2.2/TA0_0/A2/...</text>
+<text x="13.97" y="15.24" size="1.016" layer="95" font="vector" rot="MR0">P1.7/TA2_0/TDO/TDI</text>
+<text x="13.97" y="12.7" size="1.016" layer="95" font="vector" rot="MR0">P1.6/TA1_0/TDI/TCLK</text>
+<text x="13.97" y="10.16" size="1.016" layer="95" font="vector" rot="MR0">P1.5/TA0_0/TMS</text>
+<text x="13.97" y="7.62" size="1.016" layer="95" font="vector" rot="MR0">P1.4/SMCLK/TCK</text>
+<text x="13.97" y="5.08" size="1.016" layer="95" font="vector" rot="MR0">P1.3/TA2_0</text>
+<text x="13.97" y="2.54" size="1.016" layer="95" font="vector" rot="MR0">P1.2/TA1_0</text>
+<text x="13.97" y="0" size="1.016" layer="95" font="vector" rot="MR0">P1.1/TA0_0/TA0_1</text>
+<text x="13.97" y="-2.54" size="1.016" layer="95" font="vector" rot="MR0">P1.0/TACLK/...</text>
+<text x="13.97" y="-5.08" size="1.016" layer="95" font="vector" rot="MR0">P2.4/TA2_0/A4/...</text>
+<text x="13.97" y="-7.62" size="1.016" layer="95" font="vector" rot="MR0">P2.3/TA1_0/A3/...</text>
+<text x="-10.16" y="22.86" size="3.81" layer="95" font="vector">&gt;NAME</text>
+<text x="-19.05" y="-26.67" size="3.81" layer="96" font="vector">MSP430F21x2</text>
+<text x="13.97" y="-10.16" size="1.016" layer="95" font="vector" rot="MR0">P3.7/TA1_1/A7</text>
+<text x="13.97" y="-12.7" size="1.016" layer="95" font="vector" rot="MR0">P3.6/TA0_1/A6</text>
+<text x="13.97" y="-15.24" size="1.016" layer="95" font="vector" rot="MR0">P3.5/UCA0RXD/...</text>
+<text x="13.97" y="-17.78" size="1.016" layer="95" font="vector" rot="MR0">P3.4/UCA0TXD/...</text>
+<text x="-16.51" y="-17.78" size="1.016" layer="95" font="vector">P3.3/UCB0CLK/...</text>
+<text x="-16.51" y="-15.24" size="1.016" layer="95" font="vector">P3.2/UCB0SOMI/...</text>
+<text x="-16.51" y="-12.7" size="1.016" layer="95" font="vector">P3.1/UCB0SIMO/...</text>
+<text x="-16.51" y="-10.16" size="1.016" layer="95" font="vector">P3.0/UCB0STE/...</text>
+<pin name="1" x="-22.86" y="15.24" visible="pad" length="middle" direction="in"/>
+<pin name="2" x="-22.86" y="12.7" visible="pad" length="middle" direction="pwr"/>
+<pin name="3" x="-22.86" y="10.16" visible="pad" length="middle"/>
+<pin name="4" x="-22.86" y="7.62" visible="pad" length="middle" direction="pwr"/>
+<pin name="5" x="-22.86" y="5.08" visible="pad" length="middle"/>
+<pin name="6" x="-22.86" y="2.54" visible="pad" length="middle"/>
+<pin name="7" x="-22.86" y="0" visible="pad" length="middle" direction="in"/>
+<pin name="8" x="-22.86" y="-2.54" visible="pad" length="middle"/>
+<pin name="9" x="-22.86" y="-5.08" visible="pad" length="middle"/>
+<pin name="10" x="-22.86" y="-7.62" visible="pad" length="middle"/>
+<pin name="28" x="20.32" y="15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="27" x="20.32" y="12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="26" x="20.32" y="10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="25" x="20.32" y="7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="24" x="20.32" y="5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="23" x="20.32" y="2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="22" x="20.32" y="0" visible="pad" length="middle" rot="R180"/>
+<pin name="21" x="20.32" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="20" x="20.32" y="-5.08" visible="pad" length="middle" rot="R180"/>
+<pin name="19" x="20.32" y="-7.62" visible="pad" length="middle" rot="R180"/>
+<pin name="11" x="-22.86" y="-10.16" visible="pad" length="middle"/>
+<pin name="12" x="-22.86" y="-12.7" visible="pad" length="middle"/>
+<pin name="13" x="-22.86" y="-15.24" visible="pad" length="middle"/>
+<pin name="14" x="-22.86" y="-17.78" visible="pad" length="middle"/>
+<pin name="18" x="20.32" y="-10.16" visible="pad" length="middle" rot="R180"/>
+<pin name="17" x="20.32" y="-12.7" visible="pad" length="middle" rot="R180"/>
+<pin name="16" x="20.32" y="-15.24" visible="pad" length="middle" rot="R180"/>
+<pin name="15" x="20.32" y="-17.78" visible="pad" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CC430F5137" prefix="U">
@@ -34339,6 +34405,49 @@ LOW-DROPOUT LINEAR REGULATORS</description>
 <connects>
 <connect gate="G$1" pin="+" pad="P"/>
 <connect gate="G$1" pin="-" pad="N"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MSP430F2132" prefix="U">
+<description>*** MSP430F21x2 *** PW28</description>
+<gates>
+<gate name="G$1" symbol="F21X2---PW28" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="PW28">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="17" pad="17"/>
+<connect gate="G$1" pin="18" pad="18"/>
+<connect gate="G$1" pin="19" pad="19"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="20" pad="20"/>
+<connect gate="G$1" pin="21" pad="21"/>
+<connect gate="G$1" pin="22" pad="22"/>
+<connect gate="G$1" pin="23" pad="23"/>
+<connect gate="G$1" pin="24" pad="24"/>
+<connect gate="G$1" pin="25" pad="25"/>
+<connect gate="G$1" pin="26" pad="26"/>
+<connect gate="G$1" pin="27" pad="27"/>
+<connect gate="G$1" pin="28" pad="28"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <technologies>
 <technology name=""/>
