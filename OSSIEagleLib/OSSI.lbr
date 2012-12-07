@@ -27679,6 +27679,19 @@ Source: http://www.maxim-ic.com/cgi-bin/packages?pkg=16%2FSOIC%2E300&amp;Type=Ma
 <text x="-5.08" y="17.78" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="16.51" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="CX5032">
+<smd name="1" x="-2.1" y="-1.35" dx="1.8" dy="1.5" layer="1"/>
+<smd name="2" x="2.1" y="-1.35" dx="1.8" dy="1.5" layer="1"/>
+<smd name="3" x="2.1" y="1.35" dx="1.8" dy="1.5" layer="1"/>
+<smd name="4" x="-2.1" y="1.35" dx="1.8" dy="1.5" layer="1"/>
+<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.6" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<circle x="-3.302" y="-2.794" radius="0.254" width="0.127" layer="21"/>
+<text x="-3.302" y="-5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.302" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CC430F5137">
@@ -34448,6 +34461,131 @@ LOW-DROPOUT LINEAR REGULATORS</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CX5032SB" prefix="Q">
+<description>AVX 19.2MHz Crystal CX5032SB19200F0FLJZZ &lt;br/&gt;
+Ground pin 2 and 4 &lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;
+ CRYSTAL, SM, CX-96F, 19.200MHZ&lt;/li&gt;
+&lt;li&gt;
+
+Frequency:19.2MHz
+&lt;/li&gt;
+&lt;li&gt;
+
+Frequency Tolerance:± 10ppm
+&lt;/li&gt;
+
+&lt;li&gt;
+Load Capacitance:10pF
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Frequency Stability:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;± 10ppm&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Operating Temperature Range:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;-30°C to +85°C&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Crystal Mounting Type:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;SMD&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Crystal Case Type:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;5mm x 3.2mm&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; No. of Pins:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;4&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; SVHC:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;No SVHC (18-Jun-2012)&lt;/span&gt;
+&lt;/li&gt;
+ &lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Accuracy:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;± 10ppm&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Frequency Accuracy + @:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;10ppm&lt;/span&gt;
+ &lt;/li&gt;
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Frequency Accuracy - @:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;10ppm&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Operating Temperature Max:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;85°C&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Operating Temperature Min:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;-30°C&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Output Frequency:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;19.200MHz&lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Series:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;CX5032SB&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Temperature Stability + @:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;15 ppm&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Temperature Stability - @:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;15 ppm&lt;/span&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+
+&lt;span class="prodAttrName"&gt; Temperature Stabilty:&lt;/span&gt;
+&lt;span class="prodAttrValue"&gt;± 10ppm&lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CX5032">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
