@@ -1,19 +1,19 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/OSSI/Documents/eagle/OSSI-1Electronics/OSSIComms/OSSICommsBeaconNew/OSSIBeacon.brd
+Job           : C:/Users/OSSI/Documents/eagle/OSSI-1Electronics/OSSITestBoard/OSSII2CTest/OSSII2CTest.brd
 
-Start at      : 17:17:49 (2012-12-10)
-End at        : 17:17:50 (2012-12-10)
-Elapsed time  : 00:00:01
+Start at      : 16:38:43 (2012-12-10)
+End at        : 16:38:44 (2012-12-10)
+Elapsed time  : 00:00:00
 
-Signals       :    70   RoutingGrid: 50 mil  Layers: 2
-Connections   :   232   predefined:  232 ( 194 Vias )
+Signals       :    38   RoutingGrid: 5 mil  Layers: 2
+Connections   :   113   predefined:  113 ( 33 Vias )
 
-Router memory :   21608
+Router memory :   2241008
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Time per pass     :  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00
 Number of Ripups  :         0         0         0         0         0
 max. Level        :         0         0         0         0         0
 max. Total        :         0         0         0         0         0
