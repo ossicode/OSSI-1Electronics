@@ -1,0 +1,112 @@
+Partlist
+
+Exported from OSSIBeacon.sch at 2012-12-10 ¿ÀÈÄ 5:49:18
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device             Package       Library  Sheet
+
+C1       100nF              C0603(1608)        C0603(1608)   OSSI     3
+C2       100nF              C0603(1608)        C0603(1608)   OSSI     3
+C3       1uF, 0805          C0805(2012)        C0805(2012)   OSSI     2
+C4                          C0603(1608)        C0603(1608)   OSSI     2
+C5                          C0603(1608)        C0603(1608)   OSSI     2
+C6                          C0603(1608)        C0603(1608)   OSSI     2
+C7       1uF 0805           C0805(2012)        C0805(2012)   OSSI     2
+C8                          C0603(1608)        C0603(1608)   OSSI     2
+C9                          C0603(1608)        C0603(1608)   OSSI     2
+C10                         C0603(1608)        C0603(1608)   OSSI     2
+C11                         C0603(1608)        C0603(1608)   OSSI     2
+C12      TBD                C0603(1608)        C0603(1608)   OSSI     3
+C13      TBD                C0603(1608)        C0603(1608)   OSSI     3
+C14                         C0603(1608)        C0603(1608)   OSSI     2
+C15                         C0603(1608)        C0603(1608)   OSSI     2
+C16                         C0603(1608)        C0603(1608)   OSSI     2
+C17      12.5pF             C0603(1608)        C0603(1608)   OSSI     3
+C18      12.5pF             C0603(1608)        C0603(1608)   OSSI     3
+C19      1uF                C0603(1608)        C0603(1608)   OSSI     3
+C20      100nF              C0603(1608)        C0603(1608)   OSSI     3
+C21      100nF              C0603(1608)        C0603(1608)   OSSI     3
+C22                         C0603(1608)        C0603(1608)   OSSI     2
+C23      1uF                C0603(1608)        C0603(1608)   OSSI     1
+C24      100nF              C0603(1608)        C0603(1608)   OSSI     1
+C25                         C0603(1608)        C0603(1608)   OSSI     2
+C26      1uF,0805           C0805(2012)        C0805(2012)   OSSI     1
+C27      10nF               C0603(1608)        C0603(1608)   OSSI     1
+C28      10nF               C0603(1608)        C0603(1608)   OSSI     1
+C29      100nF              C0603(1608)        C0603(1608)   OSSI     1
+C30      10uF,1210          C1210(3225)-GCM32  C1210-GCM32   OSSI     1
+C31      100nF              C0603(1608)        C0603(1608)   OSSI     1
+C32                         C0603(1608)        C0603(1608)   OSSI     1
+C33      10pF               C0603(1608)        C0603(1608)   OSSI     2
+C34      1uF 0805           C0805(2012)        C0805(2012)   OSSI     3
+C35      1uF 0805           C0805(2012)        C0805(2012)   OSSI     3
+C36      10pF               C0603(1608)        C0603(1608)   OSSI     2
+C37      10nF               C0603(1608)        C0603(1608)   OSSI     3
+C38      100nF              C0603(1608)        C0603(1608)   OSSI     3
+C39      100nF              C0603(1608)        C0603(1608)   OSSI     3
+C62      22nF               C0603(1608)        C0603(1608)   OSSI     2
+C76      10nF               C0603(1608)        C0603(1608)   OSSI     2
+C77      22pF               C0603(1608)        C0603(1608)   OSSI     2
+D1       BAT54S             BAT54S             SOT23         OSSI     3
+D2       TPD1E10B06         TPD1E10B06         X2SON         OSSI     3
+D3       TPD1E10B06         TPD1E10B06         X2SON         OSSI     3
+D4       TPD1E10B06         TPD1E10B06         X2SON         OSSI     3
+D5       TPD1E10B06         TPD1E10B06         X2SON         OSSI     3
+F1       LFCN-160           LFCN-160           LFCN          OSSI     1
+H1       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+H2       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+H3       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+H4       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+JP1                         JP1Q               JP1           OSSI     3
+L1       470nH, 1008 size   L1008(2502)        L1008(2520)   OSSI     2
+L2       470nH, 1008 size   L1008(2502)        L1008(2520)   OSSI     1
+L3                          L0603(1608)        L0603(1608)   OSSI     2
+L4                          L0603(1608)        L0603(1608)   OSSI     2
+L10      10nH               L0603(1608)        L0603(1608)   OSSI     2
+L11      0 Ohm              L0805(2012)        L0805(2012)   OSSI     3
+LED1                        LED0603            LED-0603      SparkFun 3
+Q1       CX5032SB           CX5032SB           CX5032        OSSI     2
+Q2       NX-3215            NX-3215            NX-3215       OSSI     3
+R1       100k               R0603(1608)        R0603(1608)   OSSI     1
+R2                          R0603(1608)        R0603(1608)   OSSI     2
+R3                          R0603(1608)        R0603(1608)   OSSI     2
+R4       0                  R0603(1608)        R0603(1608)   OSSI     2
+R5       4.7k               R0603(1608)        R0603(1608)   OSSI     3
+R6       4.7k               R0603(1608)        R0603(1608)   OSSI     3
+R7       4.7k               R0603(1608)        R0603(1608)   OSSI     3
+R8       4.7k               R0603(1608)        R0603(1608)   OSSI     3
+R12      100k               R0603(1608)        R0603(1608)   OSSI     1
+R13      1.6k               R0603(1608)        R0603(1608)   OSSI     1
+R16      4.7k               R0603(1608)        R0603(1608)   OSSI     3
+R17      TBD                R0603(1608)        R0603(1608)   OSSI     3
+R18      100k               R0603(1608)        R0603(1608)   OSSI     3
+R19      100k               R0603(1608)        R0603(1608)   OSSI     3
+R20      100k               R0603(1608)        R0603(1608)   OSSI     3
+R21      100k               R0603(1608)        R0603(1608)   OSSI     3
+R22      100k               R0603(1608)        R0603(1608)   OSSI     3
+R23      100k               R0603(1608)        R0603(1608)   OSSI     3
+R25      3.6k               R0603(1608)        R0603(1608)   OSSI     2
+R33      1k                 R0603(1608)        R0603(1608)   OSSI     3
+R34      100k               R0603(1608)        R0603(1608)   OSSI     1
+R63      250                R0603(1608)        R0603(1608)   OSSI     3
+R67      250                R0603(1608)        R0603(1608)   OSSI     3
+R68      10k                R0603(1608)        R0603(1608)   OSSI     3
+R71      10k                R0603(1608)        R0603(1608)   OSSI     3
+TCXO1    19.2MHz            TCXO-M532          TCXO_M532     OSSI     2
+TR3      FDV301N            FDV301N            SOT23         OSSI     1
+U1       MSP430F2132        MSP430F2132        PW28          OSSI     3
+U2       ADF7012            ADF7012            TSSOP24       OSSI     2
+U3       MAX890L            MAX890L            SO8           OSSI     3
+U4       OPA2347            OPA2347            SOT23-8DCN    OSSI     3
+U5       ADL5530            ADL5530            LFCSP8_CP     OSSI     1
+U6       MAX890L            MAX890L            SO8           OSSI     1
+U7       TPS3838            TPS3838            SOT23-5DBV    OSSI     3
+U8       TPS76933           TPS76933           SOT23-5DBV    OSSI     3
+U10      MAX6369            MAX6369            SOT23-8       OSSI     3
+X1       RFCON-MCX-R/A      RFCON-MCX-R/A      MCX-R/A       OSSI     1
+X2       DF13-10PA          DF13-10PA          DF13A-10P     OSSI     3
+X3       MOLEX-22-05-7035   MOLEX-22-05-7035   22-05-7035    OSSI     3
+X5       JTAG10PINMINI-H    JTAG10PINMINI-H    M50-3200545   OSSI     3

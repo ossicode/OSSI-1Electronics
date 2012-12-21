@@ -18145,7 +18145,7 @@ Source: www.kingbright.com</description>
 <part name="C80" library="OSSI" deviceset="C" device="0603(1608)" value="8.2pF"/>
 <part name="GND66" library="OSSI" deviceset="GND" device=""/>
 <part name="GND67" library="OSSI" deviceset="GND" device=""/>
-<part name="L11" library="OSSI" deviceset="L" device="0603(1608)" value="2.7nH"/>
+<part name="L11" library="OSSI" deviceset="L" device="0603(1608)" value="3.9nH"/>
 <part name="C81" library="OSSI" deviceset="C" device="0603(1608)" value="47pF"/>
 <part name="C82" library="OSSI" deviceset="C" device="0603(1608)" value="1nF"/>
 <part name="C83" library="OSSI" deviceset="C" device="1210(3225)-TMK325" value="3.3uF"/>
@@ -18161,22 +18161,22 @@ Source: www.kingbright.com</description>
 <part name="C88" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
 <part name="C89" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
 <part name="GND78" library="OSSI" deviceset="GND" device=""/>
-<part name="L12" library="OSSI" deviceset="L" device="0603(1608)" value="6.8nH"/>
-<part name="R35" library="OSSI" deviceset="R" device="0603(1608)" value="0"/>
+<part name="L12" library="OSSI" deviceset="L" device="0603(1608)" value="1.5nH"/>
+<part name="R35" library="OSSI" deviceset="R" device="0603(1608)" value="330nH"/>
 <part name="C90" library="OSSI" deviceset="C" device="1210(3225)-TMK325" value="3.3uF"/>
 <part name="C91" library="OSSI" deviceset="C" device="0603(1608)" value="1nF"/>
-<part name="C92" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
+<part name="C92" library="OSSI" deviceset="C" device="0603(1608)" value="10pF"/>
 <part name="GND79" library="OSSI" deviceset="GND" device=""/>
 <part name="GND80" library="OSSI" deviceset="GND" device=""/>
 <part name="GND81" library="OSSI" deviceset="GND" device=""/>
-<part name="C93" library="OSSI" deviceset="C" device="0603(1608)" value="330pF"/>
+<part name="C93" library="OSSI" deviceset="C" device="0603(1608)" value="15pF"/>
 <part name="GND82" library="OSSI" deviceset="GND" device=""/>
-<part name="R36" library="OSSI" deviceset="R" device="0603(1608)" value="18"/>
+<part name="R36" library="OSSI" deviceset="R" device="0603(1608)" value="11nH"/>
 <part name="C94" library="OSSI" deviceset="C" device="0603(1608)" value="330pF"/>
 <part name="C95" library="OSSI" deviceset="C" device="0603(1608)" value="1nF"/>
 <part name="C96" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
 <part name="GND73" library="OSSI" deviceset="GND" device=""/>
-<part name="L5" library="OSSI" deviceset="L" device="NR3012" value="1uH 3012"/>
+<part name="L5" library="OSSI" deviceset="L" device="NR3012" value="39nH 3012, 1A rating"/>
 <part name="X2" library="OSSI" deviceset="JTAG10PINMINI" device="-H"/>
 <part name="3.3VCOMMS9" library="OSSI" deviceset="3.3VCOMMS" device=""/>
 <part name="3.3VCOMMS10" library="OSSI" deviceset="3.3VCOMMS" device=""/>

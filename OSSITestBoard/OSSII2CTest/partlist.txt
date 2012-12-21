@@ -1,0 +1,61 @@
+Partlist
+
+Exported from OSSII2CTest.sch at 2012-12-10 ¿ÀÈÄ 5:48:37
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device             Package       Library  Sheet
+
+BAT1     BATTERY-BH32T      BATTERY-BH32T      BH32T-C-G     OSSI     2
+C11      100nF              C0603(1608)        C0603(1608)   OSSI     2
+C18      100nF              C0603(1608)        C0603(1608)   OSSI     2
+C19      100nF              C0603(1608)        C0603(1608)   OSSI     2
+C20      100nF              C0603(1608)        C0603(1608)   OSSI     2
+C21      100nF              C0603(1608)        C0603(1608)   OSSI     2
+H1       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+H2       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+H3       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+H4       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND OSSI     1
+JP1                         JP1Q               JP1           OSSI     2
+JP2                         JP1Q               JP1           OSSI     2
+JP3                         JP1Q               JP1           OSSI     2
+JP4                         JP1Q               JP1           OSSI     2
+JP5                         JP1Q               JP1           OSSI     2
+JP6                         JP1Q               JP1           OSSI     2
+JP7                         JP1Q               JP1           OSSI     2
+JP8                         JP1Q               JP1           OSSI     2
+JP9                         JP1Q               JP1           OSSI     2
+JP10                        JP1Q               JP1           OSSI     2
+JP11                        JP1Q               JP1           OSSI     2
+JP12                        JP1Q               JP1           OSSI     2
+JP13                        JP1Q               JP1           OSSI     2
+JP14                        JP1Q               JP1           OSSI     2
+JP15                        JP1Q               JP1           OSSI     2
+JP16                        JP1Q               JP1           OSSI     2
+R4       100k               R0603(1608)        R0603(1608)   OSSI     2
+R5       10k                R0603(1608)        R0603(1608)   OSSI     2
+R6       1.5k               R0603(1608)        R0603(1608)   OSSI     2
+R22      250                R0603(1608)        R0603(1608)   OSSI     2
+R23      250                R0603(1608)        R0603(1608)   OSSI     2
+R24      250                R0603(1608)        R0603(1608)   OSSI     2
+R25      250                R0603(1608)        R0603(1608)   OSSI     2
+R26      250                R0603(1608)        R0603(1608)   OSSI     3
+R27      250                R0603(1608)        R0603(1608)   OSSI     3
+R28      250                R0603(1608)        R0603(1608)   OSSI     2
+R29      250                R0603(1608)        R0603(1608)   OSSI     2
+R30      10k                R0603(1608)        R0603(1608)   OSSI     3
+R31      10k                R0603(1608)        R0603(1608)   OSSI     3
+R32      250                R0603(1608)        R0603(1608)   OSSI     2
+R33      250                R0603(1608)        R0603(1608)   OSSI     2
+R56      10k                R0603(1608)        R0603(1608)   OSSI     2
+R62      10k                R0603(1608)        R0603(1608)   OSSI     2
+R64      470k               R0603(1608)        R0603(1608)   OSSI     2
+R65      470k               R0603(1608)        R0603(1608)   OSSI     2
+U1       PCA9548APWR        PCA9548APWR        TSSOP-24-PW   OSSI     2
+U11      PCA9515APWR        PCA9515APWR        TSSOP-8       OSSI     2
+U16      DS3231-L           DS3231-L           SO16L         OSSI     2
+U17      FM24V02-G          FM24V02-G          SO8           OSSI     2
+U18      TMP101             TMP101             SOT23-6DBV    OSSI     2
+U19      24LC256-8LEAD      24LC256-8LEAD      SO08-208      OSSI     2

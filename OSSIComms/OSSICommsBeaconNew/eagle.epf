@@ -7,12 +7,11 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
-UsedLibrary="C:/Users/OSSI/Documents/eagle/OSSIEagleLib/OSSI.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="49 38 1507 859"
-State=0
+Loc="100 100 699 499"
+State=3
 Number=0
 
 [Desktop]
