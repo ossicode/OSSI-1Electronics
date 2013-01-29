@@ -16281,6 +16281,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <sheets>
 <sheet>
 <plain>
+<text x="58.42" y="50.8" size="1.778" layer="94">Move this to front !!!!</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
