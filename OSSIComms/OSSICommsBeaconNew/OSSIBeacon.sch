@@ -16896,6 +16896,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="289.56" y="246.38" size="1.778" layer="94">DIGITAL / RF POWER CHOKE</text>
 <text x="231.14" y="15.24" size="1.778" layer="94">Pull Down resistor!!</text>
 <text x="10.16" y="193.04" size="1.778" layer="94">Check TVS influences on OpAmp Input</text>
+<text x="236.22" y="154.94" size="1.778" layer="94">Conntect Test Pin to JTAG!!</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
