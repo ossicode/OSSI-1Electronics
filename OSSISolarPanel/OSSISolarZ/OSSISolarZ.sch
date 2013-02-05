@@ -25546,6 +25546,7 @@ Vf max = 0.32V&lt;br /&gt;</description>
 <text x="66.04" y="101.6" size="1.778" layer="94">configurable address pin needs to be added</text>
 <text x="73.66" y="134.62" size="1.778" layer="94">pull-up resistor needed?</text>
 <text x="114.3" y="116.84" size="1.778" layer="94">power supplied by OBC</text>
+<text x="307.34" y="134.62" size="1.9304" layer="94">Add Bypass capacitor!!!</text>
 </plain>
 <instances>
 <instance part="S1" gate="G$1" x="15.24" y="60.96"/>
