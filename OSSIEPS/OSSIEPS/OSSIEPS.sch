@@ -210,26 +210,26 @@ DIN A3, landscape with extra doc field</description>
 <text x="4" y="-3.75" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="MSE">
-<smd name="10" x="-0.325" y="2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="9" x="0.325" y="2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="8" x="0.975" y="2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="7" x="1.625" y="2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="11" x="-0.975" y="2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="12" x="-1.625" y="2.1" dx="0.45" dy="1" layer="1"/>
+<smd name="10" x="-0.325" y="2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="9" x="0.325" y="2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="8" x="0.975" y="2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="7" x="1.625" y="2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="11" x="-0.975" y="2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="12" x="-1.625" y="2.233" dx="0.45" dy="1" layer="1"/>
 <smd name="13" x="0" y="0" dx="2.845" dy="1.65" layer="1"/>
-<smd name="3" x="-0.325" y="-2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="4" x="0.325" y="-2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="5" x="0.975" y="-2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="6" x="1.625" y="-2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="2" x="-0.975" y="-2.1" dx="0.45" dy="1" layer="1"/>
-<smd name="1" x="-1.625" y="-2.1" dx="0.45" dy="1" layer="1"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="21"/>
+<smd name="3" x="-0.325" y="-2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="4" x="0.325" y="-2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="5" x="0.975" y="-2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="6" x="1.625" y="-2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="2" x="-0.975" y="-2.233" dx="0.45" dy="1" layer="1"/>
+<smd name="1" x="-1.625" y="-2.233" dx="0.45" dy="1" layer="1"/>
+<wire x1="-2" y1="1.5" x2="2" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="1.5" width="0.127" layer="21"/>
 <text x="-2.5" y="-3.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="3.5" y="-3.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<circle x="-1.525" y="-1.225" radius="0.22360625" width="0.127" layer="27"/>
+<circle x="-1.525" y="-0.59" radius="0.22360625" width="0.127" layer="27"/>
 </package>
 <package name="TSOT23-5">
 <smd name="P$1" x="-0.95" y="-1.31" dx="0.62" dy="1.22" layer="1"/>

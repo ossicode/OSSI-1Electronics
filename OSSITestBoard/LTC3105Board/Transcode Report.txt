@@ -1,0 +1,100 @@
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.stc' ----   Thu Feb 07 16:02:48 2013
+
+D10   --> D100
+D11   --> D101
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.cmp' ----   Thu Feb 07 16:02:48 2013
+
+D10   --> D102
+D11   --> D103
+D12   --> D104
+D13   --> D105
+D14   --> D106
+D15   --> D107
+D16   --> D108
+D17   --> D109
+D18   --> D110
+D19   --> D111
+D20   --> D112
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.dim' ----   Thu Feb 07 16:02:48 2013
+
+D10   --> D113
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.sol' ----   Thu Feb 07 16:02:48 2013
+
+D10   --> D114
+D11   --> D115
+D12   --> D116
+D13   --> D117
+D14   --> D118
+D15   --> D119
+D16   --> D120
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.sts' ----   Thu Feb 07 16:02:48 2013
+
+D10   --> D121
+D11   --> D122
+D12   --> D123
+D13   --> D124
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.stc' ----   Thu Feb 07 16:08:05 2013
+
+D10   --> D100
+D11   --> D101
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.cmp' ----   Thu Feb 07 16:08:05 2013
+
+D10   --> D102
+D11   --> D103
+D12   --> D104
+D13   --> D105
+D14   --> D106
+D15   --> D107
+D16   --> D108
+D17   --> D109
+D18   --> D110
+D19   --> D111
+D20   --> D112
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.dim' ----   Thu Feb 07 16:08:05 2013
+
+D10   --> D113
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.sol' ----   Thu Feb 07 16:08:05 2013
+
+D10   --> D114
+D11   --> D115
+D12   --> D116
+D13   --> D117
+D14   --> D118
+D15   --> D119
+D16   --> D120
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'C:\Users\OSSI\AppData\Local\Temp\gerber_importZIP\LTC3105Board.sts' ----   Thu Feb 07 16:08:05 2013
+
+D10   --> D121
+D11   --> D122
+D12   --> D123
+D13   --> D124
+-----------------------------------------------------------------
