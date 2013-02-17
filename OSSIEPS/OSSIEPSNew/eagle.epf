@@ -1,0 +1,20 @@
+[Eagle]
+Version="06 01 00"
+Platform="Windows"
+Serial="7004B95A68-LSR-WLM-1CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/OSSI/Documents/eagle/OSSI-1Electronics/OSSIEagleLib/OSSI.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="0 0 599 399"
+State=1
+Number=0
+
+[Desktop]
+Screen="1600 900"
+Window="Win_1"

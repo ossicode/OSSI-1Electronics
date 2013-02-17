@@ -13611,6 +13611,26 @@
 <rectangle x1="4.85" y1="5.71" x2="5.43" y2="5.73" layer="29"/>
 <rectangle x1="8.29" y1="5.71" x2="8.87" y2="5.73" layer="29"/>
 </package>
+<package name="PWR263S-20">
+<smd name="P$1" x="-2.54" y="0" dx="2.4" dy="4.23" layer="1"/>
+<smd name="P$2" x="2.54" y="0" dx="2.4" dy="4.23" layer="1"/>
+<smd name="TPAD" x="0" y="9.865" dx="11" dy="11" layer="1"/>
+<text x="-5.08" y="17.78" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="16.51" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="R4527(12070)">
+<description>Power Metal Strip® Resistors &lt;br /&gt;
+Low Value (down to 0.001 Ohm), Surface Mount&lt;br/&gt;
+WSR25L000FEA / Vshay</description>
+<smd name="P$1" x="-4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<smd name="P$2" x="4.575" y="0" dx="3.94" dy="5.84" layer="1"/>
+<wire x1="-5.78" y1="3.5" x2="-5.78" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-5.78" y1="-3.5" x2="5.78" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="5.78" y1="-3.5" x2="5.78" y2="3.5" width="0.127" layer="21"/>
+<wire x1="5.78" y1="3.5" x2="-5.78" y2="3.5" width="0.127" layer="21"/>
+<text x="-6.35" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TASCSOLARCELL">
@@ -13891,6 +13911,24 @@ Vf max = 0.32V&lt;br /&gt;</description>
 </technologies>
 </device>
 <device name="WSL1206" package="WSL1206">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PWR263S" package="PWR263S-20">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="WSR2" package="R4527(12070)">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
