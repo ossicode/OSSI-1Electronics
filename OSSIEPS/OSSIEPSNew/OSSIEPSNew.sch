@@ -13907,18 +13907,6 @@ DIN A3, landscape with extra doc field</description>
 <rectangle x1="4.85" y1="5.71" x2="5.43" y2="5.73" layer="29"/>
 <rectangle x1="8.29" y1="5.71" x2="8.87" y2="5.73" layer="29"/>
 </package>
-<package name="53015-03">
-<wire x1="-4" y1="6.1" x2="4" y2="6.1" width="0.127" layer="21"/>
-<wire x1="4" y1="6.1" x2="4" y2="-1.49" width="0.127" layer="21"/>
-<wire x1="4" y1="-1.49" x2="-4" y2="-1.49" width="0.127" layer="21"/>
-<wire x1="-4" y1="-1.49" x2="-4" y2="6.1" width="0.127" layer="21"/>
-<pad name="2" x="0" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="3" x="-2" y="0" drill="0.9" shape="long" rot="R90"/>
-<pad name="1" x="2" y="0" drill="0.9" shape="long" rot="R90"/>
-<text x="1.905" y="3.175" size="1.27" layer="21">1</text>
-<text x="-4" y="7.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4" y="6.27" size="1.27" layer="27">&gt;VALUE</text>
-</package>
 <package name="E62-10K">
 <description>Cherry E62-10K switch</description>
 <wire x1="0" y1="0" x2="0" y2="10.16" width="0.127" layer="21"/>
@@ -14002,6 +13990,14 @@ WSR25L000FEA / Vshay</description>
 <text x="-4.98" y="8.75" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.98" y="7.1825" size="1.27" layer="27">&gt;VALUE</text>
 <text x="2.52" y="2.5" size="1.27" layer="21">1</text>
+</package>
+<package name="TP-13">
+<circle x="0" y="0" radius="0.762" width="0.1524" layer="51"/>
+<pad name="TP" x="0" y="0" drill="1.3208" diameter="2.159"/>
+<text x="-1.016" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="-1.27" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+<rectangle x1="-0.3302" y1="-0.3302" x2="0.3302" y2="0.3302" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -14493,6 +14489,15 @@ WSR25L000FEA / Vshay</description>
 <text x="-2.54" y="-4.318" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="2" x="-5.08" y="2.54" visible="pad" length="middle"/>
 <pin name="1" x="-5.08" y="0" visible="pad" length="middle"/>
+</symbol>
+<symbol name="TP">
+<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="1.27" y="-1.27" size="1.778" layer="97">&gt;TP_SIGNAL_NAME</text>
+<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -15288,23 +15293,6 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="53015-03" prefix="X">
-<gates>
-<gate name="G$1" symbol="3PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="53015-03">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="E62-10K" prefix="X">
 <description>Cherry E620-10K spdt sw for Remove Before Flight pin</description>
 <gates>
@@ -15368,6 +15356,21 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TP" prefix="TP">
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TP-13">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15531,7 +15534,6 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <part name="R40" library="OSSI" deviceset="R" device="PWR263S" value="1R5, 20W, 1%"/>
 <part name="C36" library="OSSI" deviceset="C" device="0805(2012)"/>
 <part name="U$1" library="OSSI" deviceset="OSSILOGO" device="RECT"/>
-<part name="X2" library="OSSI" deviceset="53015-03" device=""/>
 <part name="X8" library="OSSI" deviceset="E62-10K" device=""/>
 <part name="R11" library="OSSI" deviceset="R" device="0603(1608)" value="47k"/>
 <part name="R12" library="OSSI" deviceset="R" device="0603(1608)" value="47k"/>
@@ -15560,6 +15562,8 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <part name="X4" library="OSSI" deviceset="5268-02" device=""/>
 <part name="X5" library="OSSI" deviceset="5268-03" device=""/>
 <part name="X6" library="OSSI" deviceset="5268-02" device=""/>
+<part name="TP1" library="OSSI" deviceset="TP" device=""/>
+<part name="X2" library="OSSI" deviceset="5268-03" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15590,6 +15594,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <instance part="R39" gate="G$1" x="162.56" y="91.44" rot="R90"/>
 <instance part="GND55" gate="1" x="162.56" y="78.74"/>
 <instance part="C36" gate="G$1" x="149.86" y="88.9"/>
+<instance part="TP1" gate="G$1" x="223.52" y="127"/>
 </instances>
 <busses>
 </busses>
@@ -15634,6 +15639,10 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <pinref part="GND37" gate="1" pin="GND"/>
 <wire x1="208.28" y1="132.08" x2="215.9" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="132.08" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="223.52" y1="124.46" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="121.92" x2="215.9" y2="121.92" width="0.1524" layer="91"/>
+<junction x="215.9" y="121.92"/>
 </segment>
 <segment>
 <pinref part="GND38" gate="1" pin="GND"/>
@@ -16000,11 +16009,11 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <instance part="GND48" gate="1" x="243.84" y="91.44"/>
 <instance part="VBAT3" gate="G$1" x="182.88" y="160.02"/>
 <instance part="R40" gate="G$1" x="269.24" y="93.98"/>
-<instance part="X2" gate="G$1" x="302.26" y="124.46"/>
 <instance part="R11" gate="G$1" x="142.24" y="119.38" rot="R90"/>
 <instance part="R12" gate="G$1" x="142.24" y="76.2" rot="R90"/>
 <instance part="GND18" gate="1" x="142.24" y="109.22"/>
 <instance part="GND19" gate="1" x="142.24" y="66.04"/>
+<instance part="X2" gate="G$1" x="304.8" y="124.46"/>
 </instances>
 <busses>
 </busses>
@@ -16135,7 +16144,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <wire x1="281.94" y1="137.16" x2="289.56" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="137.16" x2="289.56" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="129.54" x2="289.56" y2="127" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="127" x2="299.72" y2="127" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -16155,7 +16164,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <wire x1="243.84" y1="106.68" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="106.68" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="106.68" x2="289.56" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="124.46" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="124.46" x2="299.72" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -16231,7 +16240,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <wire x1="274.32" y1="93.98" x2="281.94" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="93.98" x2="292.1" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="93.98" x2="292.1" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="121.92" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="121.92" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="1"/>
 </segment>
 </net>

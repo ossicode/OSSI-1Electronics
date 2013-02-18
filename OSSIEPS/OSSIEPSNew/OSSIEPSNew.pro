@@ -2,14 +2,14 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/OSSI/Documents/eagle/OSSI-1Electronics/OSSIEPS/OSSIEPSNew/OSSIEPSNew.brd
 
-Start at      : 07:29:55 (2013-02-18)
-End at        : 07:29:55 (2013-02-18)
+Start at      : 17:46:17 (2013-02-18)
+End at        : 17:46:17 (2013-02-18)
 Elapsed time  : 00:00:00
 
 Signals       :    90   RoutingGrid: 50 mil  Layers: 2
-Connections   :   221   predefined:  221 ( 131 Vias )
+Connections   :   222   predefined:  222 ( 139 Vias )
 
-Router memory :   27144
+Router memory :   26796
 
 Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
