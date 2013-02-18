@@ -945,7 +945,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="VSUPERCAP1" gate="G$1" x="175.26" y="180.34"/>
 <instance part="VBAT2" gate="G$1" x="223.52" y="182.88"/>
 <instance part="VSOLAR4" gate="G$1" x="187.96" y="190.5"/>
-<instance part="STRUT_GND1" gate="G$1" x="180.34" y="83.82"/>
+<instance part="STRUT_GND1" gate="G$1" x="180.34" y="81.28"/>
 <instance part="H5" gate="G$1" x="256.54" y="96.52"/>
 <instance part="H6" gate="G$1" x="256.54" y="83.82"/>
 <instance part="H7" gate="G$1" x="256.54" y="71.12"/>
@@ -1327,7 +1327,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="STRUT_GND" class="0">
 <segment>
-<wire x1="180.34" y1="96.52" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="96.52" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="STRUT_GND1" gate="G$1" pin="STRUT_GND"/>
 <pinref part="H1" gate="G$1" pin="MOUNT"/>
 <wire x1="198.12" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
