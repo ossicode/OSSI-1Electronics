@@ -16424,6 +16424,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="X5" library="OSSI" deviceset="5268-02" device=""/>
 <part name="3.3VOBC5" library="OSSI" deviceset="3.3VBEACON" device=""/>
 <part name="C28" library="OSSI" deviceset="C" device="1210(3225)-GCM32" value="22uF,1210"/>
+<part name="R29" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
+<part name="R30" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
+<part name="R31" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
+<part name="R32" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
+<part name="R33" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
+<part name="R34" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
+<part name="R35" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -17680,6 +17687,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="X5" gate="G$1" x="193.04" y="55.88" rot="R180"/>
 <instance part="3.3VOBC5" gate="G$1" x="208.28" y="66.04" rot="MR0"/>
 <instance part="C28" gate="G$1" x="294.64" y="226.06"/>
+<instance part="R29" gate="G$1" x="292.1" y="134.62"/>
+<instance part="R30" gate="G$1" x="292.1" y="132.08"/>
+<instance part="R31" gate="G$1" x="292.1" y="129.54"/>
+<instance part="R32" gate="G$1" x="292.1" y="127"/>
+<instance part="R33" gate="G$1" x="292.1" y="124.46"/>
+<instance part="R34" gate="G$1" x="292.1" y="121.92"/>
+<instance part="R35" gate="G$1" x="292.1" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -18270,51 +18284,51 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </net>
 <net name="BEACON_DATA" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="24"/>
-<wire x1="279.4" y1="134.62" x2="297.18" y2="134.62" width="0.1524" layer="91"/>
-<label x="297.18" y="134.62" size="1.778" layer="95" xref="yes"/>
+<label x="325.12" y="134.62" size="1.778" layer="95" xref="yes"/>
+<pinref part="R29" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="134.62" x2="325.12" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BEACON_TXCLK" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="23"/>
-<wire x1="279.4" y1="132.08" x2="297.18" y2="132.08" width="0.1524" layer="91"/>
-<label x="297.18" y="132.08" size="1.778" layer="95" xref="yes"/>
+<label x="325.12" y="132.08" size="1.778" layer="95" xref="yes"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="132.08" x2="325.12" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BEACON_MUXOUT" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="22"/>
-<wire x1="279.4" y1="129.54" x2="297.18" y2="129.54" width="0.1524" layer="91"/>
-<label x="297.18" y="129.54" size="1.778" layer="95" xref="yes"/>
+<label x="325.12" y="129.54" size="1.778" layer="95" xref="yes"/>
+<pinref part="R31" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="129.54" x2="325.12" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BEACON_SCLK" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="21"/>
-<wire x1="279.4" y1="127" x2="297.18" y2="127" width="0.1524" layer="91"/>
-<label x="297.18" y="127" size="1.778" layer="95" xref="yes"/>
+<label x="325.12" y="127" size="1.778" layer="95" xref="yes"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="127" x2="325.12" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BEACON_SDATA" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="20"/>
-<wire x1="279.4" y1="124.46" x2="297.18" y2="124.46" width="0.1524" layer="91"/>
-<label x="297.18" y="124.46" size="1.778" layer="95" xref="yes"/>
+<label x="325.12" y="124.46" size="1.778" layer="95" xref="yes"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="124.46" x2="325.12" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BEACON_SLE" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="19"/>
-<wire x1="279.4" y1="121.92" x2="297.18" y2="121.92" width="0.1524" layer="91"/>
-<label x="297.18" y="121.92" size="1.778" layer="95" xref="yes"/>
+<label x="325.12" y="121.92" size="1.778" layer="95" xref="yes"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="121.92" x2="325.12" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BEACON_CE" class="0">
 <segment>
-<pinref part="U8" gate="G$1" pin="18"/>
-<wire x1="279.4" y1="119.38" x2="297.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="297.18" y="119.38" size="1.778" layer="95" xref="yes"/>
+<label x="325.12" y="119.38" size="1.778" layer="95" xref="yes"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="119.38" x2="325.12" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA_ON" class="0">
@@ -18422,6 +18436,55 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="154.94" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
 <label x="25.4" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="24"/>
+<pinref part="R29" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="134.62" x2="287.02" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$42" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="23"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="132.08" x2="287.02" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$43" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="22"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="129.54" x2="287.02" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$44" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="21"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="127" x2="287.02" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="20"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="124.46" x2="287.02" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="19"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="121.92" x2="287.02" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$47" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="18"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="279.4" y1="119.38" x2="287.02" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
