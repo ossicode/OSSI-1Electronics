@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1443,14 +1443,14 @@ please refer to datasheets for via holes and recommended land patterns</descript
 <package name="LFCSP8_CP">
 <description>&lt;b&gt;8-Lead Lead Frame Chip Scale Package&lt;/b&gt; LFCSP_VD &lt;br /&gt;
 Plase refer to datasheet for recommend ground pattern!!</description>
-<smd name="1" x="-1.27" y="0.75" dx="0.73" dy="0.3" layer="1" stop="no"/>
-<smd name="2" x="-1.27" y="0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
-<smd name="3" x="-1.27" y="-0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
-<smd name="4" x="-1.27" y="-0.75" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
-<smd name="5" x="1.27" y="-0.75" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
-<smd name="6" x="1.27" y="-0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
-<smd name="7" x="1.27" y="0.25" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
-<smd name="8" x="1.27" y="0.75" dx="0.73" dy="0.3" layer="1" roundness="75" stop="no"/>
+<smd name="1" x="-0.885" y="0.75" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
+<smd name="2" x="-0.885" y="0.25" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
+<smd name="3" x="-0.885" y="-0.25" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
+<smd name="4" x="-0.885" y="-0.75" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
+<smd name="5" x="0.885" y="-0.75" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
+<smd name="6" x="0.885" y="-0.25" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
+<smd name="7" x="0.885" y="0.25" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
+<smd name="8" x="0.885" y="0.75" dx="0.7" dy="0.33" layer="1" roundness="85" stop="no"/>
 <text x="-1.2776" y="1.676" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.2526" y="-3.079" size="1.27" layer="27">&gt;VALUE</text>
 <circle x="-0.4" y="1.07" radius="0.15" width="0.127" layer="21"/>
@@ -27606,11 +27606,11 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pad name="2" x="2.54" y="0" drill="1.1" diameter="1.9"/>
 </package>
 <package name="SC70-5">
-<smd name="P$1" x="-0.65" y="-0.85" dx="0.36" dy="0.95" layer="1"/>
-<smd name="P$2" x="0" y="-0.85" dx="0.36" dy="0.95" layer="1"/>
-<smd name="P$3" x="0.65" y="-0.85" dx="0.36" dy="0.95" layer="1"/>
-<smd name="P$4" x="0.65" y="0.85" dx="0.36" dy="0.95" layer="1"/>
-<smd name="P$5" x="-0.65" y="0.85" dx="0.36" dy="0.95" layer="1"/>
+<smd name="1" x="-0.65" y="-0.85" dx="0.36" dy="0.95" layer="1"/>
+<smd name="2" x="0" y="-0.85" dx="0.36" dy="0.95" layer="1"/>
+<smd name="3" x="0.65" y="-0.85" dx="0.36" dy="0.95" layer="1"/>
+<smd name="4" x="0.65" y="0.85" dx="0.36" dy="0.95" layer="1"/>
+<smd name="5" x="-0.65" y="0.85" dx="0.36" dy="0.95" layer="1"/>
 <wire x1="-1.1" y1="0.65" x2="-1.1" y2="-0.65" width="0.127" layer="21"/>
 <wire x1="-1.1" y1="-0.65" x2="-0.65" y2="-0.65" width="0.127" layer="21"/>
 <wire x1="-0.65" y1="-0.65" x2="1.1" y2="-0.65" width="0.127" layer="21"/>
@@ -31279,6 +31279,24 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="2.54" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
 <text x="-2.54" y="-10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="NC7SZ04">
+<pin name="P$1" x="-7.62" y="2.54" visible="pad" length="short" direction="nc"/>
+<pin name="P$2" x="-7.62" y="0" visible="pad" length="short" direction="in"/>
+<pin name="P$3" x="-7.62" y="-2.54" visible="pad" length="short" direction="sup"/>
+<pin name="P$4" x="7.62" y="-2.54" visible="pad" length="short" direction="out" rot="R180"/>
+<pin name="P$5" x="7.62" y="2.54" visible="pad" length="short" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-4.445" y="1.905" size="1.27" layer="94">NC</text>
+<text x="-4.445" y="-0.635" size="1.27" layer="94">A</text>
+<text x="-4.445" y="-3.175" size="1.27" layer="94">GND</text>
+<text x="0.635" y="1.905" size="1.27" layer="94">VCC</text>
+<text x="3.175" y="-3.175" size="1.27" layer="94">Y</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -35812,11 +35830,11 @@ Standard 2-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <devices>
 <device name="" package="SC70-5">
 <connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-<connect gate="G$1" pin="P$3" pad="P$3"/>
-<connect gate="G$1" pin="P$4" pad="P$4"/>
-<connect gate="G$1" pin="P$5" pad="P$5"/>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -35950,6 +35968,26 @@ Right Anlge 2mm pitch</description>
 <connect gate="G$1" pin="P$7" pad="7"/>
 <connect gate="G$1" pin="P$8" pad="8"/>
 <connect gate="G$1" pin="P$9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NC7SZ04" prefix="U">
+<description>UHS Inverter NC7SZ04</description>
+<gates>
+<gate name="G$1" symbol="NC7SZ04" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC70-5">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+<connect gate="G$1" pin="P$3" pad="3"/>
+<connect gate="G$1" pin="P$4" pad="4"/>
+<connect gate="G$1" pin="P$5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
