@@ -16454,7 +16454,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="VBAT2" gate="G$1" x="223.52" y="182.88"/>
 <instance part="VSOLAR4" gate="G$1" x="187.96" y="190.5"/>
 <instance part="STRUT_GND1" gate="G$1" x="195.58" y="91.44"/>
-<instance part="H1" gate="G$1" x="213.36" y="96.52"/>
+<instance part="H1" gate="G$1" x="215.9" y="96.52"/>
 <instance part="H2" gate="G$1" x="213.36" y="83.82"/>
 <instance part="H3" gate="G$1" x="213.36" y="71.12"/>
 <instance part="H4" gate="G$1" x="213.36" y="58.42"/>
@@ -16794,6 +16794,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="195.58" y1="96.52" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="STRUT_GND1" gate="G$1" pin="STRUT_GND"/>
 <wire x1="213.36" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="H1" gate="G$1" pin="MOUNT"/>
 </segment>
 </net>
 <net name="BAT_TEMP" class="0">
