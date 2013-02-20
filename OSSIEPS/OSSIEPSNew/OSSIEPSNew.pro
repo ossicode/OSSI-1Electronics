@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/OSSI/Documents/eagle/OSSI-1Electronics/OSSIEPS/OSSIEPSNew/OSSIEPSNew.brd
 
-Start at      : 17:46:17 (2013-02-18)
-End at        : 17:46:17 (2013-02-18)
+Start at      : 22:18:21 (2013-02-20)
+End at        : 22:18:21 (2013-02-20)
 Elapsed time  : 00:00:00
 
 Signals       :    90   RoutingGrid: 50 mil  Layers: 2

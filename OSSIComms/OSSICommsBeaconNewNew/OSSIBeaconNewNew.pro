@@ -2,12 +2,12 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/OSSI/Documents/eagle/OSSI-1Electronics/OSSIComms/OSSICommsBeaconNewNew/OSSIBeaconNewNew.brd
 
-Start at      : 19:22:36 (2013-02-20)
-End at        : 19:22:36 (2013-02-20)
+Start at      : 21:27:14 (2013-02-20)
+End at        : 21:27:14 (2013-02-20)
 Elapsed time  : 00:00:00
 
 Signals       :   118   RoutingGrid: 50 mil  Layers: 2
-Connections   :   245   predefined:  245 ( 253 Vias )
+Connections   :   252   predefined:  252 ( 258 Vias )
 
 Router memory :   27840
 
