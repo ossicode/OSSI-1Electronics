@@ -136,17 +136,12 @@
 <wire x1="79" y1="82" x2="67" y2="82" width="0" layer="20"/>
 <wire x1="15" y1="82" x2="3" y2="82" width="0" layer="20"/>
 <wire x1="3" y1="82" x2="0" y2="79" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="79" x2="0" y2="67" width="0" layer="20"/>
+<wire x1="0" y1="79" x2="0" y2="15" width="0" layer="20"/>
 <wire x1="15" y1="0" x2="15" y2="2" width="0" layer="20"/>
 <wire x1="15" y1="2" x2="18" y2="5" width="0" layer="20" curve="-90"/>
 <wire x1="18" y1="5" x2="64" y2="5" width="0" layer="20"/>
 <wire x1="64" y1="5" x2="67" y2="2" width="0" layer="20" curve="-90"/>
 <wire x1="67" y1="2" x2="67" y2="0" width="0" layer="20"/>
-<wire x1="0" y1="15" x2="2" y2="15" width="0" layer="20"/>
-<wire x1="2" y1="15" x2="5" y2="18" width="0" layer="20" curve="90"/>
-<wire x1="5" y1="18" x2="5" y2="64" width="0" layer="20"/>
-<wire x1="5" y1="64" x2="2" y2="67" width="0" layer="20" curve="90"/>
-<wire x1="2" y1="67" x2="0" y2="67" width="0" layer="20"/>
 <wire x1="15" y1="82" x2="15" y2="80" width="0" layer="20"/>
 <wire x1="15" y1="80" x2="18" y2="77" width="0" layer="20" curve="90"/>
 <wire x1="18" y1="77" x2="64" y2="77" width="0" layer="20"/>
@@ -162,6 +157,8 @@
 <text x="45" y="62" size="3.81" layer="21" font="vector">-X</text>
 <text x="53" y="46" size="3.81" layer="21" font="vector">+Z</text>
 <text x="59" y="30" size="3.81" layer="21" font="vector">+Y</text>
+<rectangle x1="0" y1="0" x2="82" y2="82" layer="29"/>
+<rectangle x1="0" y1="0" x2="82" y2="82" layer="30"/>
 </plain>
 <libraries>
 <library name="OSSI">

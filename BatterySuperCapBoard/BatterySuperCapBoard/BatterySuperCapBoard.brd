@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -125,20 +125,27 @@
 </layers>
 <board>
 <plain>
-<wire x1="91" y1="0" x2="54.5" y2="0" width="0" layer="20"/>
-<wire x1="38.5" y1="0" x2="3" y2="0" width="0" layer="20"/>
+<wire x1="54.5" y1="3" x2="54.5" y2="1" width="0" layer="20"/>
+<wire x1="54.5" y1="1" x2="55.5" y2="0" width="0" layer="20" curve="90"/>
+<wire x1="55.5" y1="0" x2="91" y2="0" width="0" layer="20"/>
+<wire x1="3" y1="0" x2="37.5" y2="0" width="0" layer="20"/>
+<wire x1="37.5" y1="0" x2="38.5" y2="1" width="0" layer="20" curve="90"/>
+<wire x1="38.5" y1="1" x2="38.5" y2="3" width="0" layer="20"/>
 <wire x1="3" y1="0" x2="0" y2="3" width="0" layer="20" curve="-90"/>
 <wire x1="0" y1="3" x2="0" y2="85" width="0" layer="20"/>
 <wire x1="0" y1="85" x2="3" y2="88" width="0" layer="20" curve="-90"/>
-<wire x1="3" y1="88" x2="91" y2="88" width="0" layer="20"/>
+<wire x1="3" y1="88" x2="61" y2="88" width="0" layer="20"/>
+<wire x1="61" y1="88" x2="62" y2="87" width="0" layer="20" curve="-90"/>
+<wire x1="62" y1="87" x2="62" y2="85" width="0" layer="20"/>
+<wire x1="78" y1="85" x2="78" y2="87" width="0" layer="20"/>
+<wire x1="78" y1="87" x2="79" y2="88" width="0" layer="20" curve="-90"/>
+<wire x1="79" y1="88" x2="91" y2="88" width="0" layer="20"/>
 <wire x1="91" y1="88" x2="94" y2="85" width="0" layer="20" curve="-90"/>
 <wire x1="94" y1="85" x2="94" y2="3" width="0" layer="20"/>
 <wire x1="94" y1="3" x2="91" y2="0" width="0" layer="20" curve="-90"/>
-<wire x1="38.5" y1="0" x2="38.5" y2="3" width="0" layer="20"/>
 <wire x1="38.5" y1="3" x2="41.5" y2="6" width="0" layer="20" curve="-90"/>
 <wire x1="41.5" y1="6" x2="51.5" y2="6" width="0" layer="20"/>
 <wire x1="51.5" y1="6" x2="54.5" y2="3" width="0" layer="20" curve="-90"/>
-<wire x1="54.5" y1="3" x2="54.5" y2="0" width="0" layer="20"/>
 <wire x1="61" y1="57.5" x2="61" y2="13" width="0" layer="20"/>
 <wire x1="61" y1="13" x2="62" y2="12" width="0" layer="20" curve="90"/>
 <wire x1="62" y1="12" x2="76" y2="12" width="0" layer="20"/>
@@ -161,6 +168,9 @@
 <text x="92.075" y="6.985" size="1.27" layer="29" font="vector" rot="R90">TEMP2</text>
 <rectangle x1="0" y1="0" x2="94" y2="88" layer="29"/>
 <rectangle x1="0" y1="0" x2="94" y2="88" layer="30"/>
+<wire x1="62" y1="85" x2="65" y2="82" width="0" layer="20" curve="90"/>
+<wire x1="65" y1="82" x2="75" y2="82" width="0" layer="20"/>
+<wire x1="75" y1="82" x2="78" y2="85" width="0" layer="20" curve="90"/>
 </plain>
 <libraries>
 <library name="OSSI">
@@ -481,7 +491,7 @@ design rules under a new name.</description>
 <element name="H11" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="69" y="9"/>
 <element name="H12" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="9" y="71.5"/>
 <element name="H13" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="9" y="26.5"/>
-<element name="X2" library="OSSI" package="WEIDMULLER1760490000" value="WEIDMULLER" x="68.08" y="80.2"/>
+<element name="X2" library="OSSI" package="WEIDMULLER1760490000" value="WEIDMULLER" x="72.5" y="73.12"/>
 <element name="H14" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="63.5" y="73.12"/>
 <element name="H15" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="63.5" y="63.5"/>
 <element name="H16" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="74.93" y="63.5"/>
@@ -704,35 +714,35 @@ design rules under a new name.</description>
 <contactref element="H14" pad="B3,2"/>
 <polygon width="0.254" layer="16" thermals="no">
 <vertex x="60.325" y="69.85"/>
-<vertex x="67.31" y="69.85"/>
-<vertex x="67.31" y="87.63"/>
-<vertex x="60.325" y="87.63"/>
+<vertex x="71.755" y="69.85"/>
+<vertex x="71.755" y="76.2"/>
+<vertex x="60.325" y="76.2"/>
 </polygon>
 <polygon width="0.254" layer="1" thermals="no">
 <vertex x="60.325" y="69.85"/>
-<vertex x="67.31" y="69.85"/>
-<vertex x="67.31" y="87.63"/>
-<vertex x="60.325" y="87.63"/>
+<vertex x="71.755" y="69.85"/>
+<vertex x="71.755" y="76.2"/>
+<vertex x="60.325" y="76.2"/>
 </polygon>
 </signal>
 <signal name="N$2">
 <contactref element="X2" pad="1"/>
 <contactref element="H16" pad="B3,2"/>
 <polygon width="0.254" layer="16" thermals="no">
-<vertex x="69.215" y="82.55"/>
-<vertex x="69.215" y="69.85"/>
-<vertex x="71.755" y="69.85"/>
+<vertex x="73.025" y="76.2"/>
+<vertex x="73.025" y="67.31"/>
+<vertex x="71.755" y="67.31"/>
 <vertex x="71.755" y="60.325"/>
 <vertex x="78.105" y="60.325"/>
-<vertex x="78.105" y="82.55"/>
+<vertex x="78.105" y="76.2"/>
 </polygon>
 <polygon width="0.254" layer="1" thermals="no">
-<vertex x="69.215" y="82.55"/>
-<vertex x="69.215" y="69.85"/>
-<vertex x="71.755" y="69.85"/>
+<vertex x="73.025" y="76.2"/>
+<vertex x="73.025" y="67.31"/>
+<vertex x="71.755" y="67.31"/>
 <vertex x="71.755" y="60.325"/>
 <vertex x="78.105" y="60.325"/>
-<vertex x="78.105" y="82.55"/>
+<vertex x="78.105" y="76.2"/>
 </polygon>
 </signal>
 <signal name="N$56">

@@ -18604,7 +18604,6 @@ Source: www.kingbright.com</description>
 <part name="GND57" library="OSSI" deviceset="GND" device=""/>
 <part name="GND60" library="OSSI" deviceset="GND" device=""/>
 <part name="3.3VCOMMS17" library="OSSI" deviceset="3.3VCOMMS" device=""/>
-<part name="VCCRF1" library="OSSI" deviceset="VCCRF" device=""/>
 <part name="VCCRF3" library="OSSI" deviceset="VCCRF" device=""/>
 <part name="VCCRF4" library="OSSI" deviceset="VCCRF" device=""/>
 <part name="VCCRF5" library="OSSI" deviceset="VCCRF" device=""/>
@@ -20286,7 +20285,6 @@ Source: www.kingbright.com</description>
 <instance part="C79" gate="G$1" x="264.16" y="114.3" rot="R90"/>
 <instance part="GND58" gate="1" x="220.98" y="210.82"/>
 <instance part="GND59" gate="1" x="220.98" y="76.2"/>
-<instance part="VCCRF1" gate="G$1" x="17.78" y="149.86"/>
 <instance part="VCCRF5" gate="G$1" x="101.6" y="81.28"/>
 <instance part="VCCRF6" gate="G$1" x="261.62" y="71.12"/>
 <instance part="VCCRF7" gate="G$1" x="193.04" y="137.16"/>
