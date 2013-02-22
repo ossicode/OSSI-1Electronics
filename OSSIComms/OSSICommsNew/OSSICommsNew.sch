@@ -19115,7 +19115,8 @@ Source: www.kingbright.com</description>
 <wire x1="111.76" y1="25.4" x2="205.74" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="205.74" y1="25.4" x2="205.74" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="205.74" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
-<text x="147.32" y="30.48" size="1.778" layer="94">15.5dB Gain @ these values</text>
+<text x="147.32" y="30.48" size="1.778" layer="94">15.5dB Gain Measured @ these values</text>
+<text x="147.32" y="27.94" size="1.778" layer="94">15pF / 47nH / 1500pF will give similar results</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
