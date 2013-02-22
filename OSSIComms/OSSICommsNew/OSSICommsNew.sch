@@ -18529,12 +18529,12 @@ Source: www.kingbright.com</description>
 <part name="R36" library="OSSI" deviceset="R" device="0603(1608)" value="470k"/>
 <part name="R33" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
 <part name="R37" library="OSSI" deviceset="R" device="0603(1608)" value="1.5k"/>
-<part name="C8" library="OSSI" deviceset="C" device="0603(1608)" value="1500pF"/>
-<part name="L5" library="OSSI" deviceset="L" device="0603(1608)" value="47nH"/>
+<part name="C8" library="OSSI" deviceset="C" device="0603(1608)" value="1000pF"/>
+<part name="L5" library="OSSI" deviceset="L" device="0603(1608)" value="39nH"/>
 <part name="GND9" library="OSSI" deviceset="GND" device=""/>
 <part name="C7" library="OSSI" deviceset="C" device="0805(2012)" value="470pF 0805"/>
 <part name="C6" library="OSSI" deviceset="C" device="1206(3216)-GCM31" value="10uF"/>
-<part name="C4" library="OSSI" deviceset="C" device="0603(1608)" value="15pF"/>
+<part name="C4" library="OSSI" deviceset="C" device="0603(1608)" value="8.2pF"/>
 <part name="GND10" library="OSSI" deviceset="GND" device=""/>
 <part name="F1" library="OSSI" deviceset="LFCN-160" device="" value="LFCN-530"/>
 <part name="GND11" library="OSSI" deviceset="GND" device=""/>
@@ -19111,6 +19111,11 @@ Source: www.kingbright.com</description>
 <text x="233.68" y="165.1" size="1.778" layer="94">important!!</text>
 <text x="73.66" y="236.22" size="1.778" layer="94" rot="R90">chage this if resistance affects</text>
 <text x="175.26" y="208.28" size="1.778" layer="94">pull down!!</text>
+<wire x1="111.76" y1="91.44" x2="111.76" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="111.76" y1="25.4" x2="205.74" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="205.74" y1="25.4" x2="205.74" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="205.74" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
+<text x="147.32" y="30.48" size="1.778" layer="94">15.5dB Gain @ these values</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -19173,7 +19178,7 @@ Source: www.kingbright.com</description>
 <instance part="GND9" gate="1" x="172.72" y="40.64"/>
 <instance part="C7" gate="G$1" x="137.16" y="63.5"/>
 <instance part="C6" gate="G$1" x="129.54" y="63.5"/>
-<instance part="C4" gate="G$1" x="137.16" y="53.34" rot="R90"/>
+<instance part="C4" gate="G$1" x="116.84" y="53.34" rot="R90"/>
 <instance part="GND10" gate="1" x="127" y="55.88" rot="R270"/>
 <instance part="F1" gate="G$1" x="223.52" y="63.5" rot="R180"/>
 <instance part="GND11" gate="1" x="223.52" y="50.8"/>
@@ -19789,7 +19794,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="4"/>
-<wire x1="142.24" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="53.34" x2="149.86" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -20149,7 +20154,7 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="L3" gate="G$1" pin="2"/>
-<wire x1="134.62" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="53.34" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="50.8" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
