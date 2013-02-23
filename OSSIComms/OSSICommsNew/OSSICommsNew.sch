@@ -18476,7 +18476,7 @@ Source: www.kingbright.com</description>
 <part name="U1" library="OSSI" deviceset="MAX2640" device=""/>
 <part name="X2" library="OSSI" deviceset="RFCON" device="-MCX-R/A"/>
 <part name="R4" library="OSSI" deviceset="R" device="0603(1608)" value="180"/>
-<part name="C25" library="OSSI" deviceset="C" device="0603(1608)" value="8.2pF"/>
+<part name="C25" library="OSSI" deviceset="C" device="0603(1608)" value="56pF"/>
 <part name="GND66" library="OSSI" deviceset="GND" device=""/>
 <part name="GND67" library="OSSI" deviceset="GND" device=""/>
 <part name="L13" library="OSSI" deviceset="L" device="0603(1608)" value="3.9nH"/>
@@ -18486,8 +18486,8 @@ Source: www.kingbright.com</description>
 <part name="GND68" library="OSSI" deviceset="GND" device=""/>
 <part name="GND69" library="OSSI" deviceset="GND" device=""/>
 <part name="GND70" library="OSSI" deviceset="GND" device=""/>
-<part name="C21" library="OSSI" deviceset="C" device="0603(1608)" value="22pF"/>
-<part name="C22" library="OSSI" deviceset="C" device="0603(1608)" value="2pF"/>
+<part name="C21" library="OSSI" deviceset="C" device="0603(1608)" value="10pF"/>
+<part name="C22" library="OSSI" deviceset="C" device="0603(1608)" value="6pF"/>
 <part name="C26" library="OSSI" deviceset="C" device="0603(1608)" value="56pF"/>
 <part name="GND71" library="OSSI" deviceset="GND" device=""/>
 <part name="GND72" library="OSSI" deviceset="GND" device=""/>
@@ -18539,8 +18539,8 @@ Source: www.kingbright.com</description>
 <part name="F1" library="OSSI" deviceset="LFCN-160" device="" value="LFCN-530"/>
 <part name="GND11" library="OSSI" deviceset="GND" device=""/>
 <part name="GND13" library="OSSI" deviceset="GND" device=""/>
-<part name="L10" library="OSSI" deviceset="L" device="0603(1608)"/>
-<part name="L8" library="OSSI" deviceset="L" device="0603(1608)"/>
+<part name="L10" library="OSSI" deviceset="L" device="0603(1608)" value="0R"/>
+<part name="L8" library="OSSI" deviceset="L" device="0603(1608)" value="0R"/>
 <part name="L6" library="OSSI" deviceset="L" device="0603(1608)"/>
 <part name="L4" library="OSSI" deviceset="L" device="0603(1608)"/>
 <part name="C5" library="OSSI" deviceset="C" device="0603(1608)" value="DNP"/>
@@ -18668,7 +18668,7 @@ Source: www.kingbright.com</description>
 <part name="C90" library="OSSI" deviceset="C-TANTAL-A" device="" value="10uF, LDO Tantal 16V"/>
 <part name="R41" library="OSSI" deviceset="R" device="0603(1608)" value="0"/>
 <part name="C92" library="OSSI" deviceset="C" device="1210(3225)-GCM32" value="22uF,1210"/>
-<part name="L7" library="OSSI" deviceset="L" device="LQH32CN" value="330uH"/>
+<part name="L7" library="OSSI" deviceset="L" device="LQH32CN" value="0R"/>
 <part name="R14" library="OSSI" deviceset="R" device="0603(1608)" value="1.5k"/>
 <part name="R7" library="OSSI" deviceset="R" device="0603(1608)" value="470k"/>
 <part name="GND34" library="OSSI" deviceset="GND" device=""/>
@@ -19086,13 +19086,10 @@ Source: www.kingbright.com</description>
 <text x="45.72" y="17.78" size="1.778" layer="94">Maching</text>
 <text x="38.1" y="147.32" size="1.778" layer="94">variable capacitor</text>
 <text x="38.1" y="60.96" size="1.778" layer="94">variable capacitor</text>
-<text x="246.38" y="195.58" size="1.778" layer="94">Tantal Cap should be used</text>
 <wire x1="165.1" y1="195.58" x2="165.1" y2="124.46" width="0.1524" layer="94" style="shortdash"/>
 <text x="160.02" y="119.38" size="1.778" layer="94">50 Ohm</text>
 <wire x1="279.4" y1="198.12" x2="279.4" y2="127" width="0.1524" layer="94" style="shortdash"/>
 <text x="274.32" y="121.92" size="1.778" layer="94">50 Ohm</text>
-<text x="213.36" y="129.54" size="1.778" layer="94">Power Amplifier </text>
-<text x="149.86" y="96.52" size="1.778" layer="94">Tantal Cap should be used</text>
 <wire x1="58.42" y1="76.2" x2="58.42" y2="5.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="53.34" y="0" size="1.778" layer="94">50 Ohm</text>
 <wire x1="363.22" y1="134.62" x2="363.22" y2="63.5" width="0.1524" layer="94" style="shortdash"/>
@@ -19117,6 +19114,20 @@ Source: www.kingbright.com</description>
 <wire x1="205.74" y1="91.44" x2="111.76" y2="91.44" width="0.1524" layer="94" style="shortdash"/>
 <text x="147.32" y="30.48" size="1.778" layer="94">15.5dB Gain Measured @ these values</text>
 <text x="147.32" y="27.94" size="1.778" layer="94">15pF / 47nH / 1500pF will give similar results</text>
+<text x="203.2" y="119.38" size="1.778" layer="94">0 Ohm worked best for us</text>
+<text x="246.38" y="193.04" size="1.778" layer="94">3.3uF tantal or 4.7uF Ceramic worked OK</text>
+<text x="149.86" y="93.98" size="1.778" layer="94">3.3uF tantal or 4.7uF Ceramic worked OK</text>
+<text x="149.86" y="96.52" size="1.778" layer="94">Large Capacitor is needed for better power out!!</text>
+<text x="246.38" y="195.58" size="1.778" layer="94">Large Capacitor is needed for better power out!!</text>
+<wire x1="226.06" y1="172.72" x2="269.24" y2="172.72" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="269.24" y1="172.72" x2="269.24" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="269.24" y1="132.08" x2="226.06" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="226.06" y1="132.08" x2="226.06" y2="172.72" width="0.1524" layer="94" style="shortdash"/>
+<text x="223.52" y="127" size="1.778" layer="94">These setting will affect the whole output power!</text>
+<text x="243.84" y="142.24" size="1.778" layer="94">important!!</text>
+<text x="223.52" y="124.46" size="1.778" layer="94">Better to have trimmper cap for c21 / c22</text>
+<text x="30.48" y="160.02" size="1.778" layer="94" rot="R90">Eval board settng is 13nH &amp; 10pF</text>
+<text x="322.58" y="190.5" size="1.778" layer="94">Set VCOMMS_PA to 3.3~3.4V</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
