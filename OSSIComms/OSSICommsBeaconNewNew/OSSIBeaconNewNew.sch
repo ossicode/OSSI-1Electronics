@@ -16600,7 +16600,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND31" library="OSSI" deviceset="GND" device=""/>
 <part name="GND32" library="OSSI" deviceset="GND" device=""/>
 <part name="F1" library="OSSI" deviceset="LFCN-160" device=""/>
-<part name="C4" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
+<part name="C4" library="OSSI" deviceset="C" device="0603(1608)" value="100pF"/>
 <part name="GND33" library="OSSI" deviceset="GND" device=""/>
 <part name="GND34" library="OSSI" deviceset="GND" device=""/>
 <part name="3.3VOBC3" library="OSSI" deviceset="3.3VBEACON" device=""/>
@@ -17404,6 +17404,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </sheet>
 <sheet>
 <plain>
+<text x="193.04" y="96.52" size="1.778" layer="94">tune L4 for for better PLL margin</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
