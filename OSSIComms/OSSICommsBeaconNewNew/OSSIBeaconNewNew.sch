@@ -16481,7 +16481,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="U7" library="OSSI" deviceset="OPA2347" device=""/>
 <part name="3.3VBEACON4" library="OSSI" deviceset="3.3VBEACON" device=""/>
 <part name="GND10" library="OSSI" deviceset="GND" device=""/>
-<part name="R29" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
+<part name="R29" library="OSSI" deviceset="R" device="0603(1608)" value="DNP"/>
 <part name="R17" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="C33" library="OSSI" deviceset="C" device="0603(1608)" value="TBD"/>
 <part name="C30" library="OSSI" deviceset="C" device="0603(1608)" value="TBD"/>
@@ -16489,7 +16489,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND18" library="OSSI" deviceset="GND" device=""/>
 <part name="C36" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
 <part name="GND19" library="OSSI" deviceset="GND" device=""/>
-<part name="R30" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
+<part name="R30" library="OSSI" deviceset="R" device="0603(1608)" value="10k"/>
 <part name="R21" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="U9" library="OSSI" deviceset="MAX890L" device=""/>
 <part name="GND26" library="OSSI" deviceset="GND" device=""/>
@@ -16578,7 +16578,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="C19" library="OSSI" deviceset="C" device="0603(1608)" value="1uF"/>
 <part name="C18" library="OSSI" deviceset="C" device="0603(1608)" value="100pF"/>
 <part name="GND22" library="OSSI" deviceset="GND" device=""/>
-<part name="C20" library="OSSI" deviceset="C" device="0603(1608)"/>
+<part name="C20" library="OSSI" deviceset="C" device="0603(1608)" value="1uF,0603 Too Small!!"/>
 <part name="GND23" library="OSSI" deviceset="GND" device=""/>
 <part name="C24" library="OSSI" deviceset="C" device="0603(1608)" value="1uF,0603"/>
 <part name="C22" library="OSSI" deviceset="C" device="0603(1608)" value="100pF"/>
@@ -16590,7 +16590,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="L2" library="OSSI" deviceset="L" device="0603(1608)" value="68nH"/>
 <part name="L3" library="OSSI" deviceset="L" device="0603(1608)" value="68nH"/>
 <part name="C11" library="OSSI" deviceset="C" device="0603(1608)" value="22pF"/>
-<part name="C12" library="OSSI" deviceset="C" device="0603(1608)" value="22pF"/>
+<part name="C12" library="OSSI" deviceset="C" device="0603(1608)" value="39pF"/>
 <part name="C13" library="OSSI" deviceset="C" device="0603(1608)" value="22pF"/>
 <part name="GND30" library="OSSI" deviceset="GND" device=""/>
 <part name="C2" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
@@ -16600,12 +16600,12 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND31" library="OSSI" deviceset="GND" device=""/>
 <part name="GND32" library="OSSI" deviceset="GND" device=""/>
 <part name="F1" library="OSSI" deviceset="LFCN-160" device=""/>
-<part name="C4" library="OSSI" deviceset="C" device="0603(1608)"/>
+<part name="C4" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
 <part name="GND33" library="OSSI" deviceset="GND" device=""/>
 <part name="GND34" library="OSSI" deviceset="GND" device=""/>
 <part name="3.3VOBC3" library="OSSI" deviceset="3.3VBEACON" device=""/>
 <part name="VCCRF3" library="OSSI" deviceset="VCCRF" device=""/>
-<part name="L6" library="OSSI" deviceset="L" device="0805(2012)" value="5~15R ferrite bead"/>
+<part name="L6" library="OSSI" deviceset="L" device="0805(2012)" value="7 R Ferrite Bead, 3A"/>
 <part name="C41" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
 <part name="C43" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
 <part name="GND40" library="OSSI" deviceset="GND" device=""/>
@@ -16639,7 +16639,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="VBAT2" library="OSSI" deviceset="VBAT" device=""/>
 <part name="VSOLAR4" library="OSSI" deviceset="VSOLAR" device=""/>
 <part name="STRUT_GND1" library="OSSI" deviceset="STRUT_GND" device=""/>
-<part name="R32" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
+<part name="R32" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="GND36" library="OSSI" deviceset="GND" device=""/>
 <part name="X7" library="OSSI" deviceset="5268-03" device=""/>
 <part name="H4" library="OSSI" deviceset="MOUNT-PAD-ROUND" device="3.2"/>
