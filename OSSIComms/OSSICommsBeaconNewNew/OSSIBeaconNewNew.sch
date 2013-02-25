@@ -17405,6 +17405,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <sheet>
 <plain>
 <text x="193.04" y="96.52" size="1.778" layer="94">tune L4 for for better PLL margin</text>
+<text x="86.36" y="106.68" size="1.778" layer="94">Clock signal on Y is a bit distored</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>

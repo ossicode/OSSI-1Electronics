@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,16 +24,16 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="12" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="9" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -55,11 +55,11 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -4869,11 +4869,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="54.6735" y="88.265" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R44" library="OSSI" package="R0603(1608)" value="100k" x="55.245" y="83.185" smashed="yes" rot="R90">
-<attribute name="NAME" x="56.4515" y="81.661" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="56.134" y="85.0265" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="57.277" y="82.296" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C84" library="OSSI" package="C0603(1608)" value="100nF" x="37.1475" y="82.8675" smashed="yes" rot="R180">
-<attribute name="NAME" x="38.354" y="81.9785" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="36.7665" y="84.836" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="38.0365" y="84.8995" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C86" library="OSSI" package="C0603(1608)" value="100nF" x="39.37" y="85.09" smashed="yes" rot="R90">
@@ -4881,7 +4881,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="41.402" y="84.201" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C82" library="OSSI" package="C0603(1608)" value="100nF" x="36.5125" y="80.645" smashed="yes" rot="R90">
-<attribute name="NAME" x="35.306" y="82.296" size="1.27" layer="26" rot="MR270"/>
+<attribute name="NAME" x="35.4965" y="79.3115" size="1.27" layer="25" font="vector" rot="SR90"/>
 <attribute name="VALUE" x="38.5445" y="79.756" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="Q1" library="OSSI" package="NX-3215" value="NX-3215" x="33.655" y="77.47" smashed="yes" rot="R270">
@@ -4929,11 +4929,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.2715" y="56.007" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C52" library="OSSI" package="C0603(1608)" value="100nF" x="17.145" y="51.7525" smashed="yes" rot="R270">
-<attribute name="NAME" x="16.4465" y="50.419" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="14.859" y="50.7365" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="15.113" y="52.6415" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C53" library="OSSI" package="C0603(1608)" value="100pF" x="15.5575" y="51.7525" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.859" y="50.419" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="13.2715" y="52.0065" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="13.5255" y="52.6415" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C48" library="OSSI" package="C0603(1608)" value="100nF" x="29.21" y="53.975" smashed="yes">
@@ -5081,7 +5081,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="13.9065" y="75.057" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C76" library="OSSI" package="C0603(1608)" value="10nF" x="43.18" y="63.02375" smashed="yes" rot="R180">
-<attribute name="NAME" x="44.069" y="62.13475" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="41.8465" y="63.72225" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="44.069" y="65.05575" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C78" library="OSSI" package="C0603(1608)" value="22pF" x="44.45" y="53.34" smashed="yes" rot="R270">
@@ -5137,11 +5137,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="45.592503125" y="12.605" size="1.778" layer="27" rot="R180"/>
 </element>
 <element name="U1" library="OSSI" package="SOT23-6" value="MAX2640" x="18.7325" y="39.6875" smashed="yes">
-<attribute name="NAME" x="13.335" y="38.735" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="14.605" y="39.0525" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="16.8275" y="36.5125" size="1.27" layer="27"/>
 </element>
 <element name="X2" library="OSSI" package="MCX-R/A" value="RFCON-MCX-R/A" x="7.9375" y="20.0025" smashed="yes" rot="R90">
-<attribute name="NAME" x="3.4925" y="17.4625" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="4.1275" y="19.05" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="13.6525" y="16.8275" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R4" library="OSSI" package="R0603(1608)" value="180" x="48.579021875" y="20.0025" smashed="yes">
@@ -5153,7 +5153,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="48.03775" y="16.79575" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L13" library="OSSI" package="L0603(1608)" value="3.9nH" x="33.02" y="14.605" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.814" y="17.2085" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="32.3215" y="19.304" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="33.909" y="16.637" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C30" library="OSSI" package="C0603(1608)" value="47pF" x="34.76625" y="9.68375" smashed="yes" rot="R180">
@@ -5174,7 +5174,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.60675" y="12.954" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C26" library="OSSI" package="C0603(1608)" value="56pF" x="30.1625" y="14.605" smashed="yes" rot="R180">
-<attribute name="NAME" x="32.3215" y="17.2085" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="29.464" y="19.304" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="31.0515" y="16.637" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C36" library="OSSI" package="C0603(1608)" value="10nF" x="44.7675" y="6.0325" smashed="yes" rot="R90">
@@ -5223,11 +5223,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="40.8305" y="6.9215" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="L15" library="OSSI" package="NR3012" value="39nH 3012, 1A rating" x="37.1475" y="13.335" smashed="yes" rot="R270">
-<attribute name="NAME" x="36.195" y="14.605" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="36.83" y="19.05" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="33.3375" y="16.51" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="X7" library="OSSI" package="M50-3200545" value="JTAG10PINMINI-H" x="27.94" y="89.8525" smashed="yes" rot="R180">
-<attribute name="NAME" x="31.75" y="86.0425" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="28.8925" y="90.17" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="31.75" y="94.9325" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U12" library="OSSI" package="SO8" value="MAX890L" x="74.93" y="73.3425" smashed="yes">
@@ -5235,7 +5235,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="79.0575" y="71.12" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R42" library="OSSI" package="R0603(1608)" value="TBD" x="78.4225" y="73.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="80.7085" y="72.771" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="80.7085" y="72.136" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="80.4545" y="72.771" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R43" library="OSSI" package="R0603(1608)" value="100k" x="76.2" y="67.945" smashed="yes" rot="R180">
@@ -5243,11 +5243,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="77.089" y="69.977" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C87" library="OSSI" package="C0603(1608)" value="1uF" x="76.2" y="65.405" smashed="yes">
-<attribute name="NAME" x="72.4535" y="65.024" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="71.501" y="64.7065" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="75.311" y="63.373" size="1.27" layer="27"/>
 </element>
 <element name="C88" library="OSSI" package="C0603(1608)" value="100nF" x="76.2" y="78.89875" smashed="yes">
-<attribute name="NAME" x="72.4535" y="78.20025" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="71.501" y="78.20025" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="75.311" y="76.86675" size="1.27" layer="27"/>
 </element>
 <element name="R36" library="OSSI" package="R0603(1608)" value="470k" x="26.3525" y="76.5175" smashed="yes" rot="R90">
@@ -5255,11 +5255,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="28.3845" y="75.6285" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R33" library="OSSI" package="R0603(1608)" value="4.7k" x="26.9875" y="74.295" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.3365" y="74.676" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="25.9715" y="74.9935" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="27.8765" y="76.327" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R37" library="OSSI" package="R0603(1608)" value="1.5k" x="47.78375" y="80.48625" smashed="yes" rot="MR180">
-<attribute name="NAME" x="49.11725" y="79.59725" size="1.27" layer="25" rot="R180"/>
+<attribute name="NAME" x="49.11725" y="79.59725" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="46.89475" y="82.51825" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="C8" library="OSSI" package="C0603(1608)" value="1000pF" x="17.78" y="33.3375" smashed="yes" rot="R270">
@@ -5271,11 +5271,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.748" y="37.084" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C7" library="OSSI" package="C0805(2012)" value="470pF 0805" x="15.24" y="42.2275" smashed="yes" rot="R90">
-<attribute name="NAME" x="15.8115" y="43.8785" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="17.7165" y="41.3385" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="17.526" y="41.3385" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C6" library="OSSI" package="C1206-GCM31" value="10uF" x="12.7" y="42.8625" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.335" y="44.7675" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="11.7475" y="42.2275" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="15.24" y="39.6875" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C4" library="OSSI" package="C0603(1608)" value="8.2pF" x="19.685" y="44.1325" smashed="yes" rot="R270">
@@ -5287,11 +5287,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="23.780003125" y="24.209996875" size="1.778" layer="27" rot="R90"/>
 </element>
 <element name="L10" library="OSSI" package="L0603(1608)" value="0R" x="27.305" y="14.605" smashed="yes" rot="R180">
-<attribute name="NAME" x="28.5115" y="17.2085" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="26.6065" y="18.9865" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="28.194" y="16.637" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L8" library="OSSI" package="L0603(1608)" value="0R" x="24.4475" y="14.605" smashed="yes" rot="R180">
-<attribute name="NAME" x="25.654" y="17.2085" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="23.4315" y="18.034" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="25.3365" y="16.637" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="L6" library="OSSI" package="L0603(1608)" value="" x="17.78" y="25.4" smashed="yes" rot="R270">
@@ -5299,11 +5299,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="15.748" y="26.289" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="L4" library="OSSI" package="L0603(1608)" value="" x="15.24" y="24.13" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.5415" y="23.114" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="NAME" x="11.811" y="23.4315" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="16.129" y="26.162" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C5" library="OSSI" package="C0603(1608)" value="DNP" x="15.24" y="26.3525" smashed="yes" rot="R180">
-<attribute name="NAME" x="13.2715" y="26.7335" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="13.9065" y="26.7335" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="16.129" y="28.3845" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C17" library="OSSI" package="C0603(1608)" value="DNP" x="26.035" y="12.065" smashed="yes" rot="R90">
@@ -5335,7 +5335,7 @@ design rules under a new name.</description>
 <element name="H2" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="85" y="9" smashed="yes"/>
 <element name="H1" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="85" y="85" smashed="yes"/>
 <element name="U5" library="OSSI" package="16QSOP" value="MAX869L" x="72.39" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="75.2475" y="48.895" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="77.47" y="50.4825" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="67.945" y="51.435" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="U6" library="OSSI" package="TO-PMOD-7" value="LMZ10503EXT" x="67.31" y="30.48" smashed="yes" rot="R270">
@@ -5343,11 +5343,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="81.28" y="35.56" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="TR1" library="OSSI" package="SOT23" value="FDV301N" x="70.485" y="56.1975" smashed="yes" rot="R180">
-<attribute name="NAME" x="68.58" y="57.785" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="68.8975" y="56.8325" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="59.3725" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R15" library="OSSI" package="R0603(1608)" value="100k" x="73.66" y="54.61" smashed="yes">
-<attribute name="NAME" x="72.4535" y="55.8165" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="75.311" y="53.9115" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="72.771" y="52.578" size="1.27" layer="27"/>
 </element>
 <element name="C42" library="OSSI" package="C1210-GCM32" value="22uF,1210" x="70.32625" y="37.62375" smashed="yes">
@@ -5379,7 +5379,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="66.167" y="29.2735" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R9" library="OSSI" package="R0603(1608)" value="49.9k" x="64.135" y="27.305" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.929" y="25.4635" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="66.294" y="25.781" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="66.167" y="26.416" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C38" library="OSSI" package="C0603(1608)" value="180pF" x="62.23" y="26.3525" smashed="yes" rot="R90">
@@ -5391,7 +5391,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="64.262" y="28.321" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R11" library="OSSI" package="R0603(1608)" value="TBD" x="68.58" y="47.3075" smashed="yes" rot="R270">
-<attribute name="NAME" x="66.7385" y="49.149" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="69.2785" y="48.641" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="66.548" y="48.1965" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C40" library="OSSI" package="C0603(1608)" value="100nF" x="69.85" y="53.0225" smashed="yes" rot="R180">
@@ -5399,11 +5399,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="70.739" y="55.0545" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R10" library="OSSI" package="R0603(1608)" value="1.5k" x="71.4375" y="59.84875" smashed="yes" rot="R90">
-<attribute name="NAME" x="69.9135" y="58.64225" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="69.31025" y="60.3885" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="73.4695" y="58.95975" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R12" library="OSSI" package="R0603(1608)" value="100k" x="66.04" y="47.3075" smashed="yes">
-<attribute name="NAME" x="61.0235" y="46.609" size="1.27" layer="25" font="vector"/>
+<attribute name="NAME" x="61.6585" y="46.9265" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="65.151" y="45.2755" size="1.27" layer="27"/>
 </element>
 <element name="L16" library="OSSI" package="L0805(2012)" value="0 Ohm" x="59.055" y="59.53125" smashed="yes" rot="R270">
@@ -5431,7 +5431,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="57.0865" y="23.3045" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U4" library="OSSI" package="SOT23-5DBV" value="OPA347" x="60.325" y="18.415" smashed="yes" rot="R90">
-<attribute name="NAME" x="62.5475" y="21.2725" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="65.405" y="17.78" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="63.754" y="16.51" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C47" library="OSSI" package="C0603(1608)" value="100nF" x="60.0075" y="15.875" smashed="yes">
@@ -5439,54 +5439,150 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="59.1185" y="13.843" size="1.27" layer="27"/>
 </element>
 <element name="LED1" library="led" package="CHIPLED_0603" value="" x="51.59375" y="88.10625" smashed="yes">
-<attribute name="NAME" x="54.13375" y="88.74125" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="51.91125" y="90.01125" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="53.49875" y="86.83625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R38" library="OSSI" package="R0603(1608)" value="1k" x="51.59375" y="85.4075" smashed="yes" rot="R90">
-<attribute name="NAME" x="53.87975" y="83.8835" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="52.29225" y="80.7085" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="53.62575" y="84.5185" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LED2" library="led" package="CHIPLED_0603" value="" x="49.68875" y="88.10625" smashed="yes">
-<attribute name="NAME" x="48.10125" y="89.05875" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="50.32375" y="90.01125" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="51.59375" y="86.83625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R39" library="OSSI" package="R0603(1608)" value="1k" x="49.68875" y="85.4075" smashed="yes" rot="R90">
-<attribute name="NAME" x="48.79975" y="84.201" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="NAME" x="50.38725" y="81.026" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="51.72075" y="84.5185" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="U$1" library="OSSI" package="OSSILOGORECT1005" value="OSSILOGORECT" x="25.24125" y="82.55" smashed="yes" rot="R180"/>
-<element name="U2" library="OSSI" package="SC70-6" value="PE4259" x="16.98625" y="20.0025" rot="R90"/>
-<element name="R2" library="OSSI" package="R0603(1608)" value="1.5k" x="28.575" y="29.21" rot="R270"/>
-<element name="R3" library="OSSI" package="R0603(1608)" value="1.5k" x="30.1625" y="29.21" rot="R90"/>
-<element name="C15" library="OSSI" package="C0603(1608)" value="" x="17.78" y="17.4625" rot="R270"/>
-<element name="C9" library="OSSI" package="C0603(1608)" value="" x="17.78" y="22.5425" rot="R270"/>
-<element name="R1" library="OSSI" package="R0603(1608)" value="100k" x="26.9875" y="29.21" rot="R90"/>
-<element name="L3" library="OSSI" package="L0603(1608)" value="" x="19.685" y="46.99" rot="R270"/>
-<element name="C2" library="OSSI" package="C0603(1608)" value="DNP" x="17.145" y="48.26" rot="R180"/>
-<element name="L2" library="OSSI" package="L0603(1608)" value="" x="17.145" y="45.72" rot="R180"/>
-<element name="C10" library="OSSI" package="C0603(1608)" value="" x="13.0175" y="20.0025"/>
-<element name="R29" library="OSSI" package="R0603(1608)" value="4.7k" x="47.625" y="58.42" rot="R270"/>
-<element name="R28" library="OSSI" package="R0603(1608)" value="4.7k" x="46.99" y="61.595" rot="R270"/>
-<element name="R35" library="OSSI" package="R0603(1608)" value="4.7k" x="17.145" y="70.485" rot="R270"/>
-<element name="R34" library="OSSI" package="R0603(1608)" value="4.7k" x="18.0975" y="67.6275" rot="R270"/>
-<element name="U10" library="OSSI" package="SOT23-8" value="MAX6369" x="55.88" y="79.0575"/>
-<element name="C85" library="OSSI" package="C0603(1608)" value="100nF" x="58.42" y="77.47" rot="R270"/>
-<element name="C83" library="OSSI" package="C0603(1608)" value="100nF" x="55.245" y="86.36" rot="R90"/>
-<element name="X5" library="OSSI" package="5268-03" value="5268-03" x="66.04" y="83.82"/>
-<element name="U13" library="OSSI" package="SOT23" value="MCP1700_SOT23" x="75.565" y="84.455" rot="R180"/>
-<element name="C89" library="OSSI" package="C1206(3216)-A" value="10uF, LDO Tantal 16V" x="76.5175" y="81.28"/>
-<element name="C90" library="OSSI" package="C1206(3216)-A" value="10uF, LDO Tantal 16V" x="74.295" y="87.9475"/>
-<element name="R41" library="OSSI" package="R0603(1608)" value="0" x="77.7875" y="87.9475"/>
-<element name="C92" library="OSSI" package="C1210-GCM32" value="22uF,1210" x="57.4675" y="62.5475" rot="R180"/>
-<element name="L7" library="OSSI" package="LQH32CN331K23L" value="0R" x="41.91" y="23.8125" rot="R270"/>
-<element name="R14" library="OSSI" package="R0603(1608)" value="1.5k" x="58.42" y="21.59" rot="R270"/>
-<element name="R7" library="OSSI" package="R0603(1608)" value="470k" x="70.1675" y="61.9125" rot="R180"/>
-<element name="JP1" library="OSSI" package="JP1" value="" x="56.1975" y="17.145"/>
-<element name="TP1" library="OSSI" package="TP-13" value="TP" x="26.67" y="36.83"/>
-<element name="JP2" library="OSSI" package="JP1" value="" x="47.614840625" y="88.43518125"/>
-<element name="X6" library="OSSI" package="P-PAD-S" value="P-PAD-S" x="53.34" y="73.025"/>
-<element name="X4" library="OSSI" package="P-PAD-S" value="P-PAD-S" x="52.07" y="71.12"/>
-<element name="X3" library="OSSI" package="1X03" value="" x="90.17" y="25.4" rot="R90"/>
+<element name="U2" library="OSSI" package="SC70-6" value="PE4259" x="16.98625" y="20.0025" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.55375" y="19.9725" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="20.88625" y="22.6025" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R2" library="OSSI" package="R0603(1608)" value="1.5k" x="28.575" y="29.21" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.8765" y="33.274" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="26.543" y="30.099" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R3" library="OSSI" package="R0603(1608)" value="1.5k" x="30.1625" y="29.21" smashed="yes" rot="R90">
+<attribute name="NAME" x="30.5435" y="30.861" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="32.1945" y="28.321" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C15" library="OSSI" package="C0603(1608)" value="" x="17.78" y="17.4625" smashed="yes" rot="R270">
+<attribute name="NAME" x="17.0815" y="16.129" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="15.748" y="18.3515" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C9" library="OSSI" package="C0603(1608)" value="" x="17.78" y="22.5425" smashed="yes" rot="R270">
+<attribute name="NAME" x="18.796" y="22.1615" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="15.748" y="23.4315" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R1" library="OSSI" package="R0603(1608)" value="100k" x="26.9875" y="29.21" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.3685" y="30.861" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="29.0195" y="28.321" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="L3" library="OSSI" package="L0603(1608)" value="" x="19.685" y="46.99" smashed="yes" rot="R270">
+<attribute name="NAME" x="20.701" y="45.974" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="17.653" y="47.879" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C2" library="OSSI" package="C0603(1608)" value="DNP" x="17.145" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.3515" y="47.6885" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="18.034" y="50.292" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="L2" library="OSSI" package="L0603(1608)" value="" x="17.145" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="16.129" y="46.4185" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="18.034" y="47.752" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C10" library="OSSI" package="C0603(1608)" value="" x="13.0175" y="20.0025" smashed="yes">
+<attribute name="NAME" x="12.1285" y="20.8915" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="12.1285" y="17.9705" size="1.27" layer="27"/>
+</element>
+<element name="R29" library="OSSI" package="R0603(1608)" value="4.7k" x="47.625" y="58.42" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.5615" y="63.4365" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="45.593" y="59.309" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R28" library="OSSI" package="R0603(1608)" value="4.7k" x="46.99" y="61.595" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.609" y="66.929" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="44.958" y="62.484" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R35" library="OSSI" package="R0603(1608)" value="4.7k" x="17.145" y="70.485" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.764" y="75.184" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="15.113" y="71.374" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R34" library="OSSI" package="R0603(1608)" value="4.7k" x="18.0975" y="67.6275" smashed="yes" rot="R270">
+<attribute name="NAME" x="16.4465" y="68.5165" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="16.0655" y="68.5165" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="U10" library="OSSI" package="SOT23-8" value="MAX6369" x="55.88" y="79.0575" smashed="yes">
+<attribute name="NAME" x="53.975" y="77.1525" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="59.055" y="77.1525" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="C85" library="OSSI" package="C0603(1608)" value="100nF" x="58.42" y="77.47" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.7215" y="82.4865" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="56.388" y="78.359" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C83" library="OSSI" package="C0603(1608)" value="100nF" x="55.245" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.626" y="87.6935" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="57.277" y="85.471" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="X5" library="OSSI" package="5268-03" value="5268-03" x="66.04" y="83.82" smashed="yes">
+<attribute name="NAME" x="61.06" y="92.57" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="61.06" y="91.0025" size="1.27" layer="27"/>
+</element>
+<element name="U13" library="OSSI" package="SOT23" value="MCP1700_SOT23" x="75.565" y="84.455" smashed="yes" rot="R180">
+<attribute name="NAME" x="73.9775" y="85.09" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="77.47" y="87.63" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="C89" library="OSSI" package="C1206(3216)-A" value="10uF, LDO Tantal 16V" x="76.5175" y="81.28" smashed="yes">
+<attribute name="NAME" x="70.866" y="80.391" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="73.7235" y="78.994" size="1.27" layer="27"/>
+</element>
+<element name="C90" library="OSSI" package="C1206(3216)-A" value="10uF, LDO Tantal 16V" x="74.295" y="87.9475" smashed="yes">
+<attribute name="NAME" x="72.4535" y="89.281" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="71.501" y="85.6615" size="1.27" layer="27"/>
+</element>
+<element name="R41" library="OSSI" package="R0603(1608)" value="0" x="77.7875" y="87.9475" smashed="yes">
+<attribute name="NAME" x="76.2635" y="89.154" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="76.8985" y="85.9155" size="1.27" layer="27"/>
+</element>
+<element name="C92" library="OSSI" package="C1210-GCM32" value="22uF,1210" x="57.4675" y="62.5475" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.1825" y="63.1825" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="60.6425" y="65.7225" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="L7" library="OSSI" package="LQH32CN331K23L" value="0R" x="41.91" y="23.8125" smashed="yes" rot="R270">
+<attribute name="NAME" x="43.815" y="26.9875" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="38.735" y="26.9875" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R14" library="OSSI" package="R0603(1608)" value="1.5k" x="58.42" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="59.436" y="21.209" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="56.388" y="22.479" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="R7" library="OSSI" package="R0603(1608)" value="470k" x="70.1675" y="61.9125" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.5165" y="62.611" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="71.0565" y="63.9445" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="JP1" library="OSSI" package="JP1" value="" x="56.1975" y="17.145" smashed="yes">
+<attribute name="NAME" x="54.5465" y="14.605" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="59.1185" y="14.605" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="TP1" library="OSSI" package="TP-13" value="TP" x="26.67" y="36.83" smashed="yes">
+<attribute name="NAME" x="25.654" y="38.1" size="1.27" layer="25" font="vector" ratio="10"/>
+<attribute name="VALUE" x="26.67" y="36.83" size="0.0254" layer="27"/>
+</element>
+<element name="JP2" library="OSSI" package="JP1" value="" x="47.614840625" y="88.43518125" smashed="yes">
+<attribute name="NAME" x="45.963840625" y="85.89518125" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="50.535840625" y="85.89518125" size="1.27" layer="27" ratio="10" rot="R90"/>
+</element>
+<element name="X6" library="OSSI" package="P-PAD-S" value="P-PAD-S" x="53.34" y="73.025" smashed="yes">
+<attribute name="NAME" x="50.8" y="74.295" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="50.8" y="70.485" size="1.27" layer="27"/>
+</element>
+<element name="X4" library="OSSI" package="P-PAD-S" value="P-PAD-S" x="52.07" y="71.12" smashed="yes">
+<attribute name="NAME" x="49.53" y="72.39" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="49.53" y="68.58" size="1.27" layer="27"/>
+</element>
+<element name="X3" library="OSSI" package="1X03" value="" x="90.17" y="25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="88.3412" y="24.0538" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="93.345" y="24.13" size="1.27" layer="27" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
