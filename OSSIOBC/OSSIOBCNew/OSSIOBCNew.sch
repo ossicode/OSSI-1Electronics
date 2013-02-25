@@ -17569,6 +17569,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <sheets>
 <sheet>
 <plain>
+<text x="144.78" y="172.72" size="1.778" layer="94">TODO: Join VSolar</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
