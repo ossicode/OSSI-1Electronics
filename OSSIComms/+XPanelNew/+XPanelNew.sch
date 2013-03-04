@@ -3880,6 +3880,8 @@ Source: www.bourns.com .. 6000_series.pdf</description>
 <plain>
 <text x="172.72" y="114.3" size="1.778" layer="94">LC Balun</text>
 <text x="121.92" y="58.42" size="5.08" layer="94">MOVE INDUCTOR TO AVOID COLLISION!!!!!!</text>
+<text x="154.94" y="116.84" size="1.778" layer="94">0603HC_22NX coilcraft is used</text>
+<text x="152.4" y="147.32" size="1.778" layer="94">6pF is used</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
