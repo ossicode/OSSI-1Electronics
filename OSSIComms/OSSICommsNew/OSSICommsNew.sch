@@ -18457,7 +18457,7 @@ Source: www.kingbright.com</description>
 <part name="GND59" library="OSSI" deviceset="GND" device=""/>
 <part name="GND61" library="OSSI" deviceset="GND" device=""/>
 <part name="FRAME5" library="frames" deviceset="DINA3_L" device=""/>
-<part name="L14" library="OSSI" deviceset="L" device="0603(1608)" value="26nH"/>
+<part name="L14" library="OSSI" deviceset="L" device="0603(1608)" value="27nH"/>
 <part name="L11" library="OSSI" deviceset="L" device="0603(1608)" value="11nH"/>
 <part name="L12" library="OSSI" deviceset="L" device="0603(1608)" value="11nH"/>
 <part name="C34" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
@@ -18519,7 +18519,7 @@ Source: www.kingbright.com</description>
 <part name="3.3VCOMMS14" library="OSSI" deviceset="3.3VCOMMS" device=""/>
 <part name="U12" library="OSSI" deviceset="MAX890L" device=""/>
 <part name="GND6" library="OSSI" deviceset="GND" device=""/>
-<part name="R42" library="OSSI" deviceset="R" device="0603(1608)" value="TBD"/>
+<part name="R42" library="OSSI" deviceset="R" device="0603(1608)" value="6.2k"/>
 <part name="GND8" library="OSSI" deviceset="GND" device=""/>
 <part name="VBUS8" library="OSSI" deviceset="VBUS" device=""/>
 <part name="R43" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
@@ -18547,7 +18547,7 @@ Source: www.kingbright.com</description>
 <part name="C17" library="OSSI" deviceset="C" device="0603(1608)" value="DNP"/>
 <part name="GND14" library="OSSI" deviceset="GND" device=""/>
 <part name="GND15" library="OSSI" deviceset="GND" device=""/>
-<part name="C24" library="OSSI" deviceset="C" device="0603(1608)" value="13pF"/>
+<part name="C24" library="OSSI" deviceset="C" device="0603(1608)" value="6pF"/>
 <part name="C3" library="OSSI" deviceset="C" device="0603(1608)" value="13pF"/>
 <part name="C23" library="OSSI" deviceset="C" device="0603(1608)" value="DNP"/>
 <part name="C16" library="OSSI" deviceset="C" device="0603(1608)" value="DNP"/>
@@ -18598,7 +18598,7 @@ Source: www.kingbright.com</description>
 <part name="3.3VDATA6" library="OSSI" deviceset="3.3VCOMMS" device=""/>
 <part name="GND45" library="OSSI" deviceset="GND" device=""/>
 <part name="VCCRF2" library="OSSI" deviceset="VCCRF" device=""/>
-<part name="L16" library="OSSI" deviceset="L" device="0805(2012)" value="0 Ohm"/>
+<part name="L16" library="OSSI" deviceset="L" device="0805(2012)" value="7R, 3A, Ferrite bead"/>
 <part name="C91" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
 <part name="C93" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
 <part name="GND57" library="OSSI" deviceset="GND" device=""/>
@@ -19128,6 +19128,13 @@ Source: www.kingbright.com</description>
 <text x="223.52" y="124.46" size="1.778" layer="94">Better to have trimmper cap for c21 / c22</text>
 <text x="30.48" y="160.02" size="1.778" layer="94" rot="R90">Eval board settng is 13nH &amp; 10pF</text>
 <text x="322.58" y="190.5" size="1.778" layer="94">Set VCOMMS_PA to 3.3~3.4V</text>
+<text x="106.68" y="215.9" size="1.778" layer="94">Current drive capability should be larger!!!</text>
+<text x="106.68" y="213.36" size="1.778" layer="94">Change this to LM7321</text>
+<text x="106.68" y="205.74" size="1.778" layer="94">Set to 2.25V for 1W and best efficiency!!!</text>
+<text x="200.66" y="93.98" size="1.778" layer="94">Use Tantal for larger RF out</text>
+<text x="256.54" y="190.5" size="1.778" layer="94">Use Tantal for larger RF out</text>
+<text x="223.52" y="121.92" size="1.778" layer="94">10pF +6pF  is better than 16 pF why???</text>
+<text x="325.12" y="127" size="1.778" layer="94">tune RF switch to lower the insertion loss. currently around 1.2 dB loss!!!!</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -20237,6 +20244,9 @@ Source: www.kingbright.com</description>
 <text x="292.1" y="27.94" size="3.302" layer="94">OPEN SOURSE SATELLITE INITIATIVE Ver 0.9</text>
 <text x="243.84" y="88.9" size="1.778" layer="94">0.8Vpp out with ac coupled capacitor</text>
 <text x="243.84" y="223.52" size="1.778" layer="94">0.8Vpp out with ac coupled capacitor</text>
+<text x="193.04" y="259.08" size="1.778" layer="94">22uF added!!</text>
+<text x="68.58" y="243.84" size="1.778" layer="94">110 is used</text>
+<text x="71.12" y="127" size="1.778" layer="94">110 is used</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -21099,6 +21109,7 @@ Source: www.kingbright.com</description>
 <text x="78.74" y="185.42" size="1.778" layer="94">Rest set limiting current so that Ilim &lt; Ireg</text>
 <text x="111.76" y="243.84" size="1.778" layer="94">Pull Up open-drain /FAULT pin at the monitoring side VCC</text>
 <text x="281.94" y="246.38" size="1.778" layer="94">DIGITAL / RF POWER CHOKE</text>
+<text x="114.3" y="190.5" size="1.778" layer="94">222.5mA limit</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>

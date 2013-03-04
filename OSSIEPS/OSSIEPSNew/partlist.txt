@@ -1,0 +1,109 @@
+Partlist
+
+Exported from OSSIEPSNew.sch at 2013-02-27 ¿ÀÀü 1:14:43
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value              Device             Package        Library  Sheet
+
+C1                          C0805(2012)        C0805(2012)    OSSI     1
+C2       100nF, 0805        C0805(2012)        C0805(2012)    OSSI     2
+C3       100nF, 0805        C0805(2012)        C0805(2012)    OSSI     2
+C4       2.2uF              C1206(3216)-GCM31  C1206-GCM31    OSSI     3
+C5       22uF               C1210(3225)-GCM32  C1210-GCM32    OSSI     3
+C6       22uF               C1210(3225)-GCM32  C1210-GCM32    OSSI     3
+C7       100pF              C0603(1608)        C0603(1608)    OSSI     3
+C8       2.2uF              C1206(3216)-GCM31  C1206-GCM31    OSSI     3
+C9       4.7uF, 1206        C1206(3216)-GCM31  C1206-GCM31    OSSI     3
+C10      0 Ohm              C0603(1608)        C0603(1608)    OSSI     3
+C11                         C0603(1608)        C0603(1608)    OSSI     3
+C12      220uF              C-TANTAL-Y         C2917(7343)-Y  OSSI     3
+C13      220uF              C-TANTAL-Y         C2917(7343)-Y  OSSI     3
+C14      220uF              C-TANTAL-Y         C2917(7343)-Y  OSSI     3
+C15      0.1uF              C0603(1608)        C0603(1608)    OSSI     3
+C16      100uF              C1210(3225)-TMK325 C1210-TMK325   OSSI     3
+C17      10uF               C1210(3225)-GCM32  C1210-GCM32    OSSI     3
+C18      10nF               C0603(1608)        C0603(1608)    OSSI     3
+C19      470pF              C0603(1608)        C0603(1608)    OSSI     3
+C20      0.1uF              C0603(1608)        C0603(1608)    OSSI     3
+C21      10uF               C1210(3225)-GCM32  C1210-GCM32    OSSI     3
+C22      1uF, 100V          C0805(2012)        C0805(2012)    OSSI     3
+C23      0.1uF              C0603(1608)        C0603(1608)    OSSI     3
+C24      4.7uF, 1206        C1206(3216)-GCM31  C1206-GCM31    OSSI     3
+D1       PMEG6020EP         PMEG6020EP         PMEG6020EP     OSSI     3
+D2       STPS5L60           STPS5L60           STPS5L60       OSSI     3
+D3       STPS5L60           STPS5L60           STPS5L60       OSSI     3
+D4       PMEG6020EP         PMEG6020EP         PMEG6020EP     OSSI     3
+D5       PMEG6020EP         PMEG6020EP         PMEG6020EP     OSSI     3
+H1       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND  OSSI     1
+H2       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND  OSSI     1
+H3       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND  OSSI     1
+H4       MOUNT-PAD-ROUND3.2 MOUNT-PAD-ROUND3.2 3.2-PAD-ROUND  OSSI     1
+JP1                         JP1Q               JP1            OSSI     3
+JP2                         JP1Q               JP1            OSSI     3
+JP3                         JP1Q               JP1            OSSI     3
+L1       4.7uH              LRLF7030           RLF7030        OSSI     3
+L2       10uH               LRLF12545          RLF12545       OSSI     3
+R1       511                RWSL1206           WSL1206        OSSI     1
+R2       47k                R0603(1608)        R0603(1608)    OSSI     2
+R3       1.5k               R0603(1608)        R0603(1608)    OSSI     2
+R4       1.2k               R0603(1608)        R0603(1608)    OSSI     2
+R5       1R5, 20W, 1%       RPWR263S           PWR263S-20     OSSI     2
+R6       47k                R0603(1608)        R0603(1608)    OSSI     2
+R7       1.2k               R0603(1608)        R0603(1608)    OSSI     2
+R8       1.5k               R0603(1608)        R0603(1608)    OSSI     2
+R9       100k               R0603(1608)        R0603(1608)    OSSI     2
+R10      100k               R0603(1608)        R0603(1608)    OSSI     2
+R11      47k                R0603(1608)        R0603(1608)    OSSI     3
+R12      1.5k               R0603(1608)        R0603(1608)    OSSI     3
+R13      470k               R0603(1608)        R0603(1608)    OSSI     3
+R14      511                RWSL1206           WSL1206        OSSI     3
+R15      470k               R0603(1608)        R0603(1608)    OSSI     3
+R16      750k               R0603(1608)        R0603(1608)    OSSI     3
+R17      1.5M               R0603(1608)        R0603(1608)    OSSI     3
+R18      2k                 R0603(1608)        R0603(1608)    OSSI     3
+R19      470k               R0603(1608)        R0603(1608)    OSSI     3
+R20      1.5M               R0603(1608)        R0603(1608)    OSSI     3
+R21      750k               R0603(1608)        R0603(1608)    OSSI     3
+R22      470k               R0603(1608)        R0603(1608)    OSSI     3
+R23      470k               R0603(1608)        R0603(1608)    OSSI     3
+R24      17.8k              R0603(1608)        R0603(1608)    OSSI     3
+R25      30.9k              R0603(1608)        R0603(1608)    OSSI     3
+R26      0.1                RWSL1206           WSL1206        OSSI     3
+R27      169k               R0603(1608)        R0603(1608)    OSSI     3
+R28      100k               R0603(1608)        R0603(1608)    OSSI     3
+R29      100k               R0603(1608)        R0603(1608)    OSSI     3
+R30      1.5M               R0603(1608)        R0603(1608)    OSSI     3
+R31      4.3k               R0603(1608)        R0603(1608)    OSSI     3
+R32      300k               R0603(1608)        R0603(1608)    OSSI     3
+R33      200k               R0603(1608)        R0603(1608)    OSSI     3
+R34      36k                R0603(1608)        R0603(1608)    OSSI     3
+R35      20m / 10m          RWSL1206           WSL1206        OSSI     3
+R36      0.05               RWSL1206           WSL1206        OSSI     3
+R37      470k               R0603(1608)        R0603(1608)    OSSI     3
+R38      470k               R0603(1608)        R0603(1608)    OSSI     3
+R39      470k               R0603(1608)        R0603(1608)    OSSI     3
+R40      470k               R0603(1608)        R0603(1608)    OSSI     3
+TP1      TP                 TP                 TP-13          OSSI     1
+TR1      FDV301N            FDV301N            SOT23          OSSI     2
+TR2      FDV301N            FDV301N            SOT23          OSSI     2
+TR3      FDV301N            FDV301N            SOT23          OSSI     3
+U1       MAX890L            MAX890L            SO8            OSSI     2
+U2       MAX890L            MAX890L            SO8            OSSI     2
+U3       LTC4411            LTC4411            TSOT23-5       OSSI     3
+U4       LTC4425            LTC4425            MSE            OSSI     3
+U5       SN74LVC1T45-EP     SN74LVC1T45-EP     SOT-6DCK       OSSI     3
+U6       LT3479             LT3479             TSSOP16-FE     OSSI     3
+U7       LTC4411            LTC4411            TSOT23-5       OSSI     3
+U8       LT3652             LT3652             MSE            OSSI     3
+U9       MAX4376            MAX4376            SOT23-5DBV     OSSI     3
+U10      LTC4411            LTC4411            TSOT23-5       OSSI     3
+X1       ESQ-126-38-G-D     ESQ-126-38-G-D     ESQ-126-XX-X-D OSSI     1
+X2       5268-03            5268-03            5268-03        OSSI     2
+X3       5268-03            5268-03            5268-03        OSSI     3
+X4       5268-02            5268-02            5628-02        OSSI     3
+X5       5268-02            5268-02            5628-02        OSSI     3
+X6       E62-10K            E62-10K            E62-10K        OSSI     3
+X7       5268-02            5268-02            5628-02        OSSI     3

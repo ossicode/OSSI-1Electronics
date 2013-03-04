@@ -4839,7 +4839,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="72.65" y="78.86" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="73.3425" y="85.7875" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R74" library="OSSI" package="R0603(1608)" value="TBD" x="67.75" y="84.984" smashed="yes">
+<element name="R74" library="OSSI" package="R0603(1608)" value="6.2k" x="67.75" y="84.984" smashed="yes">
 <attribute name="NAME" x="66.486" y="85.998" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="66.861" y="82.952" size="1.27" layer="27"/>
 </element>
@@ -4939,7 +4939,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.486" y="64.379" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="42.111" y="63.083" size="1.27" layer="27"/>
 </element>
-<element name="U14" library="OSSI" package="TSSOP-24-PW" value="PCA9548APWR" x="71.93" y="36.59" smashed="yes" rot="R90">
+<element name="U14" library="OSSI" package="TSSOP-24-PW" value="TCA9548APWR" x="71.93" y="36.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.6975" y="31.73" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="74.205" y="42.115" size="1.27" layer="27" rot="R180"/>
 </element>

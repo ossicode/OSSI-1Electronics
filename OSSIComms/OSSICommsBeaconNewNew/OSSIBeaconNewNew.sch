@@ -16483,7 +16483,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND10" library="OSSI" deviceset="GND" device=""/>
 <part name="R29" library="OSSI" deviceset="R" device="0603(1608)" value="DNP"/>
 <part name="R17" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
-<part name="C33" library="OSSI" deviceset="C" device="0603(1608)" value="TBD"/>
+<part name="C33" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
 <part name="C30" library="OSSI" deviceset="C" device="0603(1608)" value="TBD"/>
 <part name="GND12" library="OSSI" deviceset="GND" device=""/>
 <part name="GND18" library="OSSI" deviceset="GND" device=""/>
@@ -16556,7 +16556,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND57" library="OSSI" deviceset="GND" device=""/>
 <part name="C16" library="OSSI" deviceset="C" device="0603(1608)" value="1nF"/>
 <part name="VCCRF6" library="OSSI" deviceset="VCCRF" device=""/>
-<part name="L4" library="OSSI" deviceset="L" device="0603(1608)" value="10nH"/>
+<part name="L4" library="OSSI" deviceset="L" device="0603(1608)" value="8.2nH"/>
 <part name="C25" library="OSSI" deviceset="C" device="0603(1608)" value="22nF"/>
 <part name="R8" library="OSSI" deviceset="R" device="0603(1608)" value="3.6k"/>
 <part name="GND8" library="OSSI" deviceset="GND" device=""/>
@@ -16600,7 +16600,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND31" library="OSSI" deviceset="GND" device=""/>
 <part name="GND32" library="OSSI" deviceset="GND" device=""/>
 <part name="F1" library="OSSI" deviceset="LFCN-160" device=""/>
-<part name="C4" library="OSSI" deviceset="C" device="0603(1608)" value="100pF"/>
+<part name="C4" library="OSSI" deviceset="C" device="0603(1608)" value="0R"/>
 <part name="GND33" library="OSSI" deviceset="GND" device=""/>
 <part name="GND34" library="OSSI" deviceset="GND" device=""/>
 <part name="3.3VOBC3" library="OSSI" deviceset="3.3VBEACON" device=""/>
@@ -17102,6 +17102,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="193.04" y="185.42" size="1.778" layer="94">Capacitors!!!!!</text>
 <text x="101.6" y="175.26" size="1.778" layer="94">PA Off by default</text>
 <text x="134.62" y="177.8" size="1.778" layer="94">Current limited to 220mA</text>
+<text x="213.36" y="116.84" size="1.778" layer="94">DC blocking cap is added on Front panel</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -17406,6 +17407,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <plain>
 <text x="193.04" y="96.52" size="1.778" layer="94">tune L4 for for better PLL margin</text>
 <text x="86.36" y="106.68" size="1.778" layer="94">Clock signal on Y is a bit distored</text>
+<text x="193.04" y="93.98" size="1.778" layer="94">External inductor is tuned to 8.2nH </text>
+<text x="177.8" y="91.44" size="1.778" layer="94">with 8.2nH, PLL lock for all vco bias and adj are observed</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>

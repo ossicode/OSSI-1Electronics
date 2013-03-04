@@ -15431,7 +15431,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <part name="GND9" library="OSSI" deviceset="GND" device=""/>
 <part name="R36" library="OSSI" deviceset="R" device="WSL1206" value="0.05"/>
 <part name="R26" library="OSSI" deviceset="R" device="WSL1206" value="0.1"/>
-<part name="C22" library="OSSI" deviceset="C" device="0805(2012)" value="1uF, 100V"/>
+<part name="C22" library="OSSI" deviceset="C" device="0805(2012)" value="1uF, 100V, 1206"/>
 <part name="GND10" library="OSSI" deviceset="GND" device=""/>
 <part name="C10" library="OSSI" deviceset="C" device="0603(1608)" value="0 Ohm"/>
 <part name="GND11" library="OSSI" deviceset="GND" device=""/>
@@ -15513,30 +15513,30 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <part name="TR1" library="OSSI" deviceset="FDV301N" device=""/>
 <part name="TR2" library="OSSI" deviceset="FDV301N" device=""/>
 <part name="GND47" library="OSSI" deviceset="GND" device=""/>
-<part name="C3" library="OSSI" deviceset="C" device="0805(2012)" value="100nF, 0805"/>
-<part name="C2" library="OSSI" deviceset="C" device="0805(2012)" value="100nF, 0805"/>
+<part name="C3" library="OSSI" deviceset="C" device="0805(2012)" value="1uF, 0805"/>
+<part name="C2" library="OSSI" deviceset="C" device="0805(2012)" value="1uF, 0805"/>
 <part name="GND36" library="OSSI" deviceset="GND" device=""/>
 <part name="GND48" library="OSSI" deviceset="GND" device=""/>
 <part name="STRUT_GND1" library="OSSI" deviceset="STRUT_GND" device=""/>
-<part name="D4" library="OSSI" deviceset="PMEG6020EP" device=""/>
-<part name="D5" library="OSSI" deviceset="PMEG6020EP" device=""/>
+<part name="D4" library="OSSI" deviceset="PMEG6020EP" device="" value="PMEG3050BEP"/>
+<part name="D5" library="OSSI" deviceset="PMEG6020EP" device="" value="PMEG3050BEP"/>
 <part name="C9" library="OSSI" deviceset="C" device="1206(3216)-GCM31" value="4.7uF, 1206"/>
 <part name="C24" library="OSSI" deviceset="C" device="1206(3216)-GCM31" value="4.7uF, 1206"/>
 <part name="GND49" library="OSSI" deviceset="GND" device=""/>
 <part name="GND50" library="OSSI" deviceset="GND" device=""/>
 <part name="VBAT3" library="OSSI" deviceset="VBAT" device=""/>
-<part name="C11" library="OSSI" deviceset="C" device="0603(1608)"/>
+<part name="C11" library="OSSI" deviceset="C" device="0603(1608)" value="22nF"/>
 <part name="GND46" library="OSSI" deviceset="GND" device=""/>
 <part name="GND54" library="OSSI" deviceset="GND" device=""/>
 <part name="VBAT4" library="OSSI" deviceset="VBAT" device=""/>
 <part name="R1" library="OSSI" deviceset="R" device="WSL1206" value="511"/>
 <part name="GND55" library="OSSI" deviceset="GND" device=""/>
 <part name="R5" library="OSSI" deviceset="R" device="PWR263S" value="1R5, 20W, 1%"/>
-<part name="C1" library="OSSI" deviceset="C" device="0805(2012)"/>
+<part name="C1" library="OSSI" deviceset="C" device="0805(2012)" value="100nF"/>
 <part name="U$1" library="OSSI" deviceset="OSSILOGO" device="RECT"/>
 <part name="X6" library="OSSI" deviceset="E62-10K" device=""/>
-<part name="R6" library="OSSI" deviceset="R" device="0603(1608)" value="47k"/>
-<part name="R2" library="OSSI" deviceset="R" device="0603(1608)" value="47k"/>
+<part name="R6" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
+<part name="R2" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="GND18" library="OSSI" deviceset="GND" device=""/>
 <part name="GND19" library="OSSI" deviceset="GND" device=""/>
 <part name="GND20" library="OSSI" deviceset="GND" device=""/>
@@ -15549,10 +15549,10 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <part name="R13" library="OSSI" deviceset="R" device="0603(1608)" value="470k"/>
 <part name="TR3" library="OSSI" deviceset="FDV301N" device=""/>
 <part name="GND25" library="OSSI" deviceset="GND" device=""/>
-<part name="R11" library="OSSI" deviceset="R" device="0603(1608)" value="47k"/>
+<part name="R11" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="R12" library="OSSI" deviceset="R" device="0603(1608)" value="1.5k"/>
 <part name="GND26" library="OSSI" deviceset="GND" device=""/>
-<part name="R35" library="OSSI" deviceset="R" device="WSL1206" value="20m / 10m"/>
+<part name="R35" library="OSSI" deviceset="R" device="WSL1206" value="10m"/>
 <part name="U9" library="OSSI" deviceset="MAX4376" device=""/>
 <part name="GND27" library="OSSI" deviceset="GND" device=""/>
 <part name="3.3VOBC1" library="OSSI" deviceset="3.3VOBC" device=""/>
@@ -15564,6 +15564,8 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <part name="X4" library="OSSI" deviceset="5268-02" device=""/>
 <part name="TP1" library="OSSI" deviceset="TP" device=""/>
 <part name="X2" library="OSSI" deviceset="5268-03" device=""/>
+<part name="R41" library="OSSI" deviceset="R" device="0603(1608)" value="1M"/>
+<part name="R42" library="OSSI" deviceset="R" device="0603(1608)" value="1M"/>
 </parts>
 <sheets>
 <sheet>
@@ -15985,6 +15987,10 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <text x="238.76" y="116.84" size="1.778" layer="94">1150mA current Limit to cut the nichrome wire</text>
 <text x="226.06" y="81.28" size="1.778" layer="94">1150mA current Limit to cut the nichrome wire</text>
 <text x="287.02" y="86.36" size="1.778" layer="94">for 2.4A limit at 3.6V</text>
+<text x="261.62" y="129.54" size="1.778" layer="94">1M pulldown added!!!</text>
+<text x="261.62" y="101.6" size="1.778" layer="94">1M pulldown added!!!</text>
+<text x="261.62" y="127" size="1.778" layer="94">To make sure OUT is zero</text>
+<text x="261.62" y="99.06" size="1.778" layer="94">To make sure OUT is zero</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -16014,6 +16020,8 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <instance part="GND18" gate="1" x="142.24" y="109.22"/>
 <instance part="GND19" gate="1" x="142.24" y="66.04"/>
 <instance part="X2" gate="G$1" x="304.8" y="124.46"/>
+<instance part="R41" gate="G$1" x="256.54" y="132.08" rot="R90"/>
+<instance part="R42" gate="G$1" x="256.54" y="101.6" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16065,14 +16073,22 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <pinref part="GND36" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="124.46" x2="243.84" y2="127" width="0.1524" layer="91"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="256.54" y1="127" x2="256.54" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="124.46" x2="243.84" y2="124.46" width="0.1524" layer="91"/>
+<junction x="243.84" y="124.46"/>
 </segment>
 <segment>
 <pinref part="GND48" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="243.84" y1="93.98" x2="243.84" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="93.98" x2="256.54" y2="93.98" width="0.1524" layer="91"/>
 <junction x="243.84" y="93.98"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="256.54" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="93.98" x2="256.54" y2="96.52" width="0.1524" layer="91"/>
+<junction x="256.54" y="93.98"/>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
@@ -16140,12 +16156,15 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="134.62" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
 <junction x="243.84" y="137.16"/>
-<wire x1="243.84" y1="137.16" x2="281.94" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="137.16" x2="256.54" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="137.16" x2="281.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="137.16" x2="289.56" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="137.16" x2="289.56" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="129.54" x2="289.56" y2="127" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="127" x2="299.72" y2="127" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="3"/>
+<pinref part="R41" gate="G$1" pin="2"/>
+<junction x="256.54" y="137.16"/>
 </segment>
 </net>
 <net name="ANT_COIL2" class="0">
@@ -16161,11 +16180,14 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="243.84" y1="104.14" x2="243.84" y2="106.68" width="0.1524" layer="91"/>
 <junction x="243.84" y="106.68"/>
-<wire x1="243.84" y1="106.68" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="106.68" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="106.68" x2="281.94" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="106.68" x2="289.56" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="106.68" x2="289.56" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="124.46" x2="299.72" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="2"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<junction x="256.54" y="106.68"/>
 </segment>
 </net>
 <net name="ANT_DEPLOY1" class="0">
@@ -16266,6 +16288,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <text x="195.58" y="93.98" size="1.778" layer="94">charge current limited to 500mA</text>
 <text x="129.54" y="119.38" size="1.778" layer="94">charge supercap when Vin &gt; 3.6V</text>
 <text x="104.14" y="68.58" size="1.778" layer="94">Power to supercap charger off by default</text>
+<text x="114.3" y="149.86" size="1.778" layer="94">30K added</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

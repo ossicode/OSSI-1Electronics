@@ -4488,7 +4488,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="22.7965" y="40.5765" size="1.27" layer="25" font="vector" rot="R270"/>
 <attribute name="VALUE" x="21.463" y="36.449" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R23" library="OSSI" package="R0603(1608)" value="100k" x="51.435" y="33.655" smashed="yes" rot="R90">
+<element name="R23" library="OSSI" package="R0603(1608)" value="1k" x="51.435" y="33.655" smashed="yes" rot="R90">
 <attribute name="NAME" x="53.721" y="31.8135" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="53.467" y="32.766" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4540,7 +4540,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="65.024" y="30.734" size="1.27" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="60.579" y="32.131" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C11" library="OSSI" package="C1206-GCM31" value="1206 Cap" x="56.1975" y="34.29" smashed="yes" rot="R90">
+<element name="C11" library="OSSI" package="C1206-GCM31" value="4.7uF, 1206 Cap" x="56.1975" y="34.29" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.8325" y="36.83" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="58.7375" y="31.115" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -4596,11 +4596,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="46.0375" y="35.56" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="45.085" y="35.56" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R11" library="OSSI" package="R0603(1608)" value="9.1k" x="44.45" y="34.925" smashed="yes" rot="R270">
+<element name="R11" library="OSSI" package="R0603(1608)" value="5.1k" x="44.45" y="34.925" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.6085" y="36.449" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="42.418" y="35.814" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R9" library="OSSI" package="R0603(1608)" value="6.2k" x="44.45" y="32.385" smashed="yes" rot="R270">
+<element name="R9" library="OSSI" package="R0603(1608)" value="3k" x="44.45" y="32.385" smashed="yes" rot="R270">
 <attribute name="NAME" x="43.2435" y="29.464" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="42.418" y="33.274" size="1.27" layer="27" rot="R270"/>
 </element>

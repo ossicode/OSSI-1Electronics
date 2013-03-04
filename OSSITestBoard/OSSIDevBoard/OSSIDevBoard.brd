@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,15 +23,15 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
@@ -154,7 +154,7 @@
 <text x="356" y="41" size="1.27" layer="21" font="vector">SC_EN</text>
 <text x="356" y="43.5" size="1.27" layer="21" font="vector">L_OFF</text>
 <text x="356" y="46" size="1.27" layer="21" font="vector">C_OFF</text>
-<text x="356" y="48.5" size="1.27" layer="21" font="vector">SUN</text>
+<text x="356" y="48.5" size="1.27" layer="21" font="vector">BUS_CS</text>
 <text x="356" y="51" size="1.27" layer="21" font="vector">T_SCL</text>
 <text x="356" y="53.5" size="1.27" layer="21" font="vector">T_SDA</text>
 <text x="356" y="56" size="1.27" layer="21" font="vector">L_SCL</text>
@@ -163,7 +163,7 @@
 <text x="356" y="64" size="1.27" layer="21" font="vector">B_SDA</text>
 <text x="356" y="66.5" size="1.27" layer="21" font="vector">C_SCL</text>
 <text x="356" y="69" size="1.27" layer="21" font="vector">C_SDA</text>
-<text x="356" y="71" size="1.27" layer="21" font="vector">3.3VOBC</text>
+<text x="356" y="71.5" size="1.27" layer="21" font="vector">3.3VOBC</text>
 <text x="344" y="23" size="1.27" layer="21" font="vector">VBUS</text>
 <text x="344" y="25.5" size="1.27" layer="21" font="vector">VBUS</text>
 <text x="344" y="28.5" size="1.27" layer="21" font="vector">VBAT</text>
@@ -185,8 +185,11 @@
 <text x="338" y="69" size="1.27" layer="21" font="vector">BAT_FAULT</text>
 <text x="341" y="71.5" size="1.27" layer="21" font="vector">3.3VOBC</text>
 <text x="341.5" y="74" size="1.27" layer="21" font="vector">SC_PFO</text>
-<text x="343" y="76.5" size="1.27" layer="21" font="vector">SC_PG</text>
 <text x="345" y="79" size="1.27" layer="21" font="vector">GND</text>
+<text x="344" y="18" size="1.27" layer="21" font="vector">VSOL</text>
+<text x="356" y="18" size="1.27" layer="21" font="vector">VSOL</text>
+<text x="356" y="74" size="1.27" layer="21" font="vector">BAT_TEMP</text>
+<text x="356" y="76.5" size="1.27" layer="21" font="vector">SC_TEMP</text>
 </plain>
 <libraries>
 <library name="OSSI">

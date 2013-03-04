@@ -17315,7 +17315,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="X6" library="OSSI" deviceset="JTAG10PINMINI" device="-H"/>
 <part name="U20" library="OSSI" deviceset="MAX890L" device=""/>
 <part name="GND1" library="OSSI" deviceset="GND" device=""/>
-<part name="R74" library="OSSI" deviceset="R" device="0603(1608)" value="TBD"/>
+<part name="R74" library="OSSI" deviceset="R" device="0603(1608)" value="6.2k"/>
 <part name="GND3" library="OSSI" deviceset="GND" device=""/>
 <part name="VBUS2" library="OSSI" deviceset="VBUS" device=""/>
 <part name="R76" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
@@ -17365,7 +17365,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R9" library="OSSI" deviceset="R" device="0603(1608)" value="10k"/>
 <part name="C12" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
 <part name="GND13" library="OSSI" deviceset="GND" device=""/>
-<part name="U14" library="OSSI" deviceset="PCA9548APWR" device=""/>
+<part name="U14" library="OSSI" deviceset="PCA9548APWR" device="" value="TCA9548APWR"/>
 <part name="R48" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="3.3VOBC8" library="OSSI" deviceset="3.3VOBC" device=""/>
 <part name="3.3VOBC9" library="OSSI" deviceset="3.3VOBC" device=""/>
@@ -18783,6 +18783,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="81.28" y="190.5" size="1.778" layer="94">But can be turned off by OBC for testing</text>
 <text x="5.08" y="177.8" size="1.778" layer="94">VEXT will turn on the 485 in Receiver mode</text>
 <text x="5.08" y="119.38" size="1.778" layer="94">OBC pull high DE pin when TX</text>
+<text x="236.22" y="243.84" size="1.778" layer="94">This section needs pullup resistor as the other sides are pulled up!!! </text>
+<text x="236.22" y="241.3" size="1.778" layer="94">same conditon for both sides!</text>
+<text x="33.02" y="104.14" size="1.778" layer="94">Short warning! modify layout!!!</text>
+<text x="22.86" y="93.98" size="1.778" layer="94">/CS pulled up</text>
 </plain>
 <instances>
 <instance part="U14" gate="G$1" x="190.5" y="213.36" rot="R180"/>
@@ -20186,6 +20190,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="121.92" y="114.3" size="1.778" layer="94">led</text>
 <text x="238.76" y="205.74" size="1.778" layer="94">Remove 0 Ohm for SMCLK / ACLK out</text>
 <text x="208.28" y="40.64" size="1.778" layer="94">ROSC for better DCO</text>
+<text x="86.36" y="203.2" size="1.778" layer="94">222.5mA limit</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

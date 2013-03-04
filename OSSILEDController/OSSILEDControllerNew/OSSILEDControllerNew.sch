@@ -17358,7 +17358,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="GND17" library="OSSI" deviceset="GND" device=""/>
 <part name="R10" library="OSSI" deviceset="R" device="0603(1608)" value="TBD"/>
 <part name="3.3VLED1" library="OSSI" deviceset="3.3VLED" device=""/>
-<part name="R23" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
+<part name="R23" library="OSSI" deviceset="R" device="0603(1608)" value="1k"/>
 <part name="U2" library="OSSI" deviceset="OPA2347" device=""/>
 <part name="3.3VLED3" library="OSSI" deviceset="3.3VLED" device=""/>
 <part name="C7" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
@@ -17381,7 +17381,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="VSUPERCAP4" library="OSSI" deviceset="VSUPERCAP" device=""/>
 <part name="C15" library="OSSI" deviceset="C" device="0805(2012)" value="1uF 0805"/>
 <part name="GND16" library="OSSI" deviceset="GND" device=""/>
-<part name="C11" library="OSSI" deviceset="C" device="1206(3216)-GCM31" value="1206 Cap"/>
+<part name="C11" library="OSSI" deviceset="C" device="1206(3216)-GCM31" value="4.7uF, 1206 Cap"/>
 <part name="GND21" library="OSSI" deviceset="GND" device=""/>
 <part name="R26" library="OSSI" deviceset="R" device="0603(1608)" value="1.5k"/>
 <part name="R24" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
@@ -17401,8 +17401,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="TR1" library="OSSI" deviceset="FDV301N" device=""/>
 <part name="GND1" library="OSSI" deviceset="GND" device=""/>
 <part name="GND2" library="OSSI" deviceset="GND" device=""/>
-<part name="R11" library="OSSI" deviceset="R" device="0603(1608)" value="9.1k"/>
-<part name="R9" library="OSSI" deviceset="R" device="0603(1608)" value="6.2k"/>
+<part name="R11" library="OSSI" deviceset="R" device="0603(1608)" value="5.1k"/>
+<part name="R9" library="OSSI" deviceset="R" device="0603(1608)" value="3k"/>
 <part name="GND5" library="OSSI" deviceset="GND" device=""/>
 <part name="X4" library="OSSI" deviceset="5268-03" device=""/>
 <part name="GND24" library="OSSI" deviceset="GND" device=""/>
@@ -17864,6 +17864,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="256.54" y="198.12" size="1.778" layer="94">Cp out = 7.2V when Vsupercap = 3.6V</text>
 <text x="157.48" y="147.32" size="1.778" layer="94">Input protection needed when PWM ON, VSUPERCAP OFF</text>
 <text x="271.78" y="53.34" size="1.778" layer="94">Currently set to 9.7A</text>
+<text x="238.76" y="165.1" size="1.778" layer="94">Changed amp setting to comparator!!</text>
+<text x="228.6" y="213.36" size="1.778" layer="94">Power supplied from 3.3VLED to be more predictable</text>
+<text x="320.04" y="71.12" size="1.778" layer="94">These resistor values has to be tuned by measuring the currents</text>
+<text x="287.02" y="160.02" size="1.778" layer="94">Small Value for PWM drive</text>
+<text x="337.82" y="165.1" size="1.778" layer="94">MOSFET Vds drop ~ 0.2V when conducts</text>
+<text x="337.82" y="162.56" size="1.778" layer="94">Lower Vds as much as possible</text>
+<text x="205.74" y="139.7" size="1.778" layer="94">Consider input bias </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
