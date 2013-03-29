@@ -19134,7 +19134,11 @@ Source: www.kingbright.com</description>
 <text x="200.66" y="93.98" size="1.778" layer="94">Use Tantal for larger RF out</text>
 <text x="256.54" y="190.5" size="1.778" layer="94">Use Tantal for larger RF out</text>
 <text x="223.52" y="121.92" size="1.778" layer="94">10pF +6pF  is better than 16 pF why???</text>
-<text x="325.12" y="127" size="1.778" layer="94">tune RF switch to lower the insertion loss. currently around 1.2 dB loss!!!!</text>
+<text x="299.72" y="116.84" size="1.778" layer="94">tune RF switch to lower the insertion loss. currently around 1.2 dB loss!!!!</text>
+<text x="193.04" y="50.8" size="1.778" layer="91">1500pF</text>
+<text x="180.34" y="50.8" size="1.778" layer="91">47nH</text>
+<text x="116.84" y="45.72" size="1.778" layer="91">8.2nH</text>
+<text x="116.84" y="43.18" size="1.778" layer="91">Final Value but the result will be similar</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
