@@ -18642,9 +18642,9 @@ Source: www.kingbright.com</description>
 <part name="VCCRF15" library="OSSI" deviceset="VCCRF" device=""/>
 <part name="R1" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="GND21" library="OSSI" deviceset="GND" device=""/>
-<part name="L3" library="OSSI" deviceset="L" device="0603(1608)"/>
+<part name="L3" library="OSSI" deviceset="L" device="0603(1608)" value="0R"/>
 <part name="C2" library="OSSI" deviceset="C" device="0603(1608)" value="DNP"/>
-<part name="L2" library="OSSI" deviceset="L" device="0603(1608)"/>
+<part name="L2" library="OSSI" deviceset="L" device="0603(1608)" value="DNP"/>
 <part name="GND24" library="OSSI" deviceset="GND" device=""/>
 <part name="GND25" library="OSSI" deviceset="GND" device=""/>
 <part name="GND30" library="OSSI" deviceset="GND" device=""/>
@@ -19139,6 +19139,7 @@ Source: www.kingbright.com</description>
 <text x="180.34" y="50.8" size="1.778" layer="91">47nH</text>
 <text x="116.84" y="45.72" size="1.778" layer="91">8.2nH</text>
 <text x="116.84" y="43.18" size="1.778" layer="91">Final Value but the result will be similar</text>
+<text x="48.26" y="66.04" size="1.778" layer="91">12pF</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
