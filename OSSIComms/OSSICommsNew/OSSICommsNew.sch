@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18541,8 +18541,8 @@ Source: www.kingbright.com</description>
 <part name="GND13" library="OSSI" deviceset="GND" device=""/>
 <part name="L10" library="OSSI" deviceset="L" device="0603(1608)" value="0R"/>
 <part name="L8" library="OSSI" deviceset="L" device="0603(1608)" value="0R"/>
-<part name="L6" library="OSSI" deviceset="L" device="0603(1608)"/>
-<part name="L4" library="OSSI" deviceset="L" device="0603(1608)"/>
+<part name="L6" library="OSSI" deviceset="L" device="0603(1608)" value="0R"/>
+<part name="L4" library="OSSI" deviceset="L" device="0603(1608)" value="DNP"/>
 <part name="C5" library="OSSI" deviceset="C" device="0603(1608)" value="DNP"/>
 <part name="C17" library="OSSI" deviceset="C" device="0603(1608)" value="DNP"/>
 <part name="GND14" library="OSSI" deviceset="GND" device=""/>
@@ -18576,10 +18576,10 @@ Source: www.kingbright.com</description>
 <part name="R15" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
 <part name="GND49" library="OSSI" deviceset="GND" device=""/>
 <part name="C42" library="OSSI" deviceset="C" device="1210(3225)-GCM32" value="22uF,1210"/>
-<part name="C46" library="OSSI" deviceset="C" device="1210(3225)-GCM32"/>
-<part name="C45" library="OSSI" deviceset="C" device="1210(3225)-GCM32"/>
-<part name="C41" library="OSSI" deviceset="C" device="1210(3225)-GCM32"/>
-<part name="C44" library="OSSI" deviceset="C" device="0805(2012)" value="100uF,1210"/>
+<part name="C46" library="OSSI" deviceset="C" device="1210(3225)-GCM32" value="100uF"/>
+<part name="C45" library="OSSI" deviceset="C" device="1210(3225)-GCM32" value="22uF"/>
+<part name="C41" library="OSSI" deviceset="C" device="1210(3225)-GCM32" value="4.7uF"/>
+<part name="C44" library="OSSI" deviceset="C" device="0805(2012)" value="4.7uF,1210"/>
 <part name="GND50" library="OSSI" deviceset="GND" device=""/>
 <part name="GND51" library="OSSI" deviceset="GND" device=""/>
 <part name="C43" library="OSSI" deviceset="C" device="0603(1608)" value="10nF"/>
@@ -18589,7 +18589,7 @@ Source: www.kingbright.com</description>
 <part name="C38" library="OSSI" deviceset="C" device="0603(1608)" value="180pF"/>
 <part name="R6" library="OSSI" deviceset="R" device="0603(1608)" value="4.12k"/>
 <part name="GND53" library="OSSI" deviceset="GND" device=""/>
-<part name="R11" library="OSSI" deviceset="R" device="0603(1608)" value="TBD"/>
+<part name="R11" library="OSSI" deviceset="R" device="0603(1608)" value="750R"/>
 <part name="GND54" library="OSSI" deviceset="GND" device=""/>
 <part name="GND55" library="OSSI" deviceset="GND" device=""/>
 <part name="C40" library="OSSI" deviceset="C" device="0603(1608)" value="100nF"/>
@@ -18636,8 +18636,8 @@ Source: www.kingbright.com</description>
 <part name="U2" library="OSSI" deviceset="PE4259" device=""/>
 <part name="R2" library="OSSI" deviceset="R" device="0603(1608)" value="1.5k"/>
 <part name="R3" library="OSSI" deviceset="R" device="0603(1608)" value="1.5k"/>
-<part name="C15" library="OSSI" deviceset="C" device="0603(1608)"/>
-<part name="C9" library="OSSI" deviceset="C" device="0603(1608)"/>
+<part name="C15" library="OSSI" deviceset="C" device="0603(1608)" value="56pF"/>
+<part name="C9" library="OSSI" deviceset="C" device="0603(1608)" value="56pF"/>
 <part name="GND20" library="OSSI" deviceset="GND" device=""/>
 <part name="VCCRF15" library="OSSI" deviceset="VCCRF" device=""/>
 <part name="R1" library="OSSI" deviceset="R" device="0603(1608)" value="100k"/>
@@ -18648,7 +18648,7 @@ Source: www.kingbright.com</description>
 <part name="GND24" library="OSSI" deviceset="GND" device=""/>
 <part name="GND25" library="OSSI" deviceset="GND" device=""/>
 <part name="GND30" library="OSSI" deviceset="GND" device=""/>
-<part name="C10" library="OSSI" deviceset="C" device="0603(1608)"/>
+<part name="C10" library="OSSI" deviceset="C" device="0603(1608)" value="56pF"/>
 <part name="R29" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
 <part name="R28" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
 <part name="R35" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
@@ -19128,9 +19128,9 @@ Source: www.kingbright.com</description>
 <text x="223.52" y="124.46" size="1.778" layer="94">Better to have trimmper cap for c21 / c22</text>
 <text x="30.48" y="160.02" size="1.778" layer="94" rot="R90">Eval board settng is 13nH &amp; 10pF</text>
 <text x="322.58" y="190.5" size="1.778" layer="94">Set VCOMMS_PA to 3.3~3.4V</text>
-<text x="106.68" y="215.9" size="1.778" layer="94">Current drive capability should be larger!!!</text>
-<text x="106.68" y="213.36" size="1.778" layer="94">Change this to LM7321</text>
-<text x="106.68" y="205.74" size="1.778" layer="94">Set to 2.25V for 1W and best efficiency!!!</text>
+<text x="78.74" y="259.08" size="1.778" layer="94">Current drive capability should be larger!!!</text>
+<text x="78.74" y="254" size="2.54" layer="94">OPA347 is changed to LM7321 and a jumper wire is used to complete the circuit!!</text>
+<text x="106.68" y="205.74" size="1.778" layer="94">Set to 2.8V for 1W RF power and best efficiency!!!</text>
 <text x="200.66" y="93.98" size="1.778" layer="94">Use Tantal for larger RF out</text>
 <text x="256.54" y="190.5" size="1.778" layer="94">Use Tantal for larger RF out</text>
 <text x="223.52" y="121.92" size="1.778" layer="94">10pF +6pF  is better than 16 pF why???</text>
@@ -19140,6 +19140,7 @@ Source: www.kingbright.com</description>
 <text x="116.84" y="45.72" size="1.778" layer="91">8.2nH</text>
 <text x="116.84" y="43.18" size="1.778" layer="91">Final Value but the result will be similar</text>
 <text x="48.26" y="66.04" size="1.778" layer="91">12pF</text>
+<text x="238.76" y="203.2" size="1.778" layer="94">Set current limit = ~ 1.6A</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -21115,6 +21116,7 @@ Source: www.kingbright.com</description>
 <text x="111.76" y="243.84" size="1.778" layer="94">Pull Up open-drain /FAULT pin at the monitoring side VCC</text>
 <text x="281.94" y="246.38" size="1.778" layer="94">DIGITAL / RF POWER CHOKE</text>
 <text x="114.3" y="190.5" size="1.778" layer="94">222.5mA limit</text>
+<text x="269.24" y="208.28" size="1.778" layer="94">Ground is shared but the ground plane is carefully layouted</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
