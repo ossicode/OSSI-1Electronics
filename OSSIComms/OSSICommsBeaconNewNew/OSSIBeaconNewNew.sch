@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -16669,8 +16669,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="R22" library="OSSI" deviceset="R" device="0603(1608)" value="4.7k"/>
 <part name="X6" library="OSSI" deviceset="M03" device="PTH"/>
 <part name="GND35" library="OSSI" deviceset="GND" device=""/>
-<part name="R1" library="OSSI" deviceset="R" device="WSL1206" value="511"/>
-<part name="C1" library="OSSI" deviceset="C" device="0805(2012)"/>
+<part name="R1" library="OSSI" deviceset="R" device="WSL1206" value="DNP"/>
+<part name="C1" library="OSSI" deviceset="C" device="0805(2012)" value="DNP"/>
 <part name="GND37" library="OSSI" deviceset="GND" device=""/>
 <part name="TP1" library="OSSI" deviceset="TP" device=""/>
 <part name="GND47" library="OSSI" deviceset="GND" device=""/>
@@ -17409,6 +17409,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="86.36" y="106.68" size="1.778" layer="94">Clock signal on Y is a bit distored</text>
 <text x="193.04" y="93.98" size="1.778" layer="94">External inductor is tuned to 8.2nH </text>
 <text x="177.8" y="91.44" size="1.778" layer="94">with 8.2nH, PLL lock for all vco bias and adj are observed</text>
+<text x="38.1" y="86.36" size="1.778" layer="94">TCXO signal is needed to be boosted via NC7SZ04 to feed OSC input of ADF7012</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
