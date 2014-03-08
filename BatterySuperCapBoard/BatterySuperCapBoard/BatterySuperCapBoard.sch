@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -954,17 +954,17 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="H10" gate="G$1" x="284.48" y="73.66"/>
 <instance part="H11" gate="G$1" x="284.48" y="86.36"/>
 <instance part="H12" gate="G$1" x="287.02" y="99.06"/>
-<instance part="H13" gate="G$1" x="307.34" y="96.52"/>
+<instance part="H13" gate="G$1" x="309.88" y="104.14"/>
 <instance part="X2" gate="G$1" x="119.38" y="109.22" rot="R90"/>
 <instance part="H14" gate="G$1" x="99.06" y="88.9"/>
 <instance part="H15" gate="G$1" x="116.84" y="88.9"/>
 <instance part="H16" gate="G$1" x="134.62" y="86.36"/>
-<instance part="X3" gate="G$1" x="116.84" y="137.16"/>
-<instance part="X4" gate="G$1" x="116.84" y="154.94"/>
-<instance part="3.3VOBC1" gate="G$1" x="134.62" y="134.62" rot="R270"/>
-<instance part="3.3VOBC2" gate="G$1" x="134.62" y="152.4" rot="R270"/>
-<instance part="GND1" gate="1" x="139.7" y="157.48" rot="R90"/>
-<instance part="GND2" gate="1" x="139.7" y="139.7" rot="R90"/>
+<instance part="X3" gate="G$1" x="93.98" y="137.16"/>
+<instance part="X4" gate="G$1" x="93.98" y="154.94"/>
+<instance part="3.3VOBC1" gate="G$1" x="104.14" y="134.62" rot="R180"/>
+<instance part="3.3VOBC2" gate="G$1" x="104.14" y="152.4" rot="R180"/>
+<instance part="GND1" gate="1" x="106.68" y="157.48" rot="R90"/>
+<instance part="GND2" gate="1" x="106.68" y="139.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -1018,15 +1018,13 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="X4" gate="G$1" pin="3"/>
-<wire x1="124.46" y1="157.48" x2="134.62" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="157.48" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="134.62" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="3"/>
-<wire x1="124.46" y1="139.7" x2="134.62" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="134.62" y1="139.7" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3VOBC" class="0">
@@ -1042,12 +1040,12 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="X4" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="152.4" x2="134.62" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="3.3VOBC2" gate="G$1" pin="3.3VOBC"/>
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="134.62" x2="104.14" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="3.3VOBC1" gate="G$1" pin="3.3VOBC"/>
 </segment>
 </net>
@@ -1356,9 +1354,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="H12" gate="G$1" pin="MOUNT"/>
 <wire x1="279.4" y1="99.06" x2="284.48" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="H13" gate="G$1" pin="MOUNT"/>
-<wire x1="304.8" y1="96.52" x2="299.72" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="96.52" x2="299.72" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="104.14" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
 <junction x="279.4" y="104.14"/>
 <pinref part="H11" gate="G$1" pin="MOUNT"/>
 <wire x1="281.94" y1="86.36" x2="279.4" y2="86.36" width="0.1524" layer="91"/>
@@ -1382,8 +1378,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="X3" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="137.16" x2="134.62" y2="137.16" width="0.1524" layer="91"/>
-<label x="134.62" y="137.16" size="1.778" layer="95" xref="yes"/>
+<wire x1="101.6" y1="137.16" x2="111.76" y2="137.16" width="0.1524" layer="91"/>
+<label x="111.76" y="137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SUPERCAP_TEMP" class="0">
@@ -1394,8 +1390,8 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </segment>
 <segment>
 <pinref part="X4" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="154.94" x2="134.62" y2="154.94" width="0.1524" layer="91"/>
-<label x="134.62" y="154.94" size="1.778" layer="95" xref="yes"/>
+<wire x1="101.6" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
+<label x="111.76" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
