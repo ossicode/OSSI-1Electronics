@@ -1,0 +1,20 @@
+Part	Value	Attributes	Package	Description	Part Num
+ADS1	OSSIADS		OSSIADS		*
+C1	5.975pF		C0805(2012)		*
+C2	5.975pF		C0805(2012)		*
+L1	22.4nH		L0805(2012)		*
+L2	22.4nH		L0805(2012)		*
+L3	6mm dia, 5 turn		0207/10	INDUCTOR, American symbol	*
+LD1	TEMT6000X01		TEMT6000-SEN	Ambient Light Sensor	*
+R1	10k		R0805(2012)		*
+X1	RFCON-MCX-V		MCX-V	RF Connectors	*
+X2	RFCON-MCX-V		MCX-V	RF Connectors	*
+X3	P-PAD-S		P-PAD-S		*
+X4	P-PAD-S		P-PAD-S		*
+X5	P-PAD-S		P-PAD-S		*
+X6	P-PAD		P-PAD		*
+X7	P-PAD		P-PAD		*
+X8	P-PAD		P-PAD		*
+X9	P-PAD		P-PAD		*
+X10	P-PAD		P-PAD		*
+X11	P-PAD-S		P-PAD-S		*
