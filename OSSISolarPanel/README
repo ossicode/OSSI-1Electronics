@@ -1,8 +1,0 @@
-Open Source Satellite Initiative Eagle CAD Library
-http://opensat.cc
-
-We used Eagle CAD 6.1 to design the board. Please, download one from:
-http://www.cadsoftusa.com/downloads/
-
-Solar cells are attached differently to the cubesat sides,
-So the repository contains different project files.

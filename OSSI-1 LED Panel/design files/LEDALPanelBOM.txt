@@ -1,0 +1,7 @@
+Part	Value	Attributes	Package	Description	Part Num
+LED1	LED-P7		P7		*
+LED2	LED-P7		P7		*
+LED3	LED-P7		P7		*
+LED4	LED-P7		P7		*
+X1	P-PAD		P-PAD		*
+X2	P-PAD		P-PAD		*
