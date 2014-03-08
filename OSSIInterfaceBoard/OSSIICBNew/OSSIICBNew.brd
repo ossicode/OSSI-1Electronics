@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -55,11 +55,11 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2348,7 +2348,7 @@
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -2525,30 +2525,69 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="H1" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="3" y="3"/>
+<element name="H1" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="3" y="3" smashed="yes"/>
 <element name="H2" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="3" y="79"/>
 <element name="H3" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="79" y="79"/>
 <element name="H4" library="OSSI" package="3.2-PAD-ROUND" value="MOUNT-PAD-ROUND3.2" x="79" y="3"/>
-<element name="X3" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="68" y="57" rot="R270"/>
-<element name="X4" library="OSSI" package="DF13-8P-1.25DSA" value="DF13DF13-8P-1.25DSA" x="-2" y="41" rot="MR90"/>
-<element name="X6" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="41" y="68"/>
-<element name="X7" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="9" y="41" rot="R270"/>
-<element name="X8" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="68" y="25" rot="R270"/>
+<element name="X3" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="68" y="57" smashed="yes" rot="R270">
+<attribute name="NAME" x="75" y="63" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="73.635" y="63" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="X4" library="OSSI" package="DF13-8P-1.25DSA" value="DF13DF13-8P-1.25DSA" x="-2" y="41" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-2.81" y="32.285" size="1.27" layer="26" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="-7.715" y="35.285" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="X6" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="41" y="68" smashed="yes">
+<attribute name="NAME" x="35" y="75" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="35" y="73.635" size="1.27" layer="27"/>
+</element>
+<element name="X7" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="9" y="41" smashed="yes" rot="R270">
+<attribute name="NAME" x="16" y="47" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="14.635" y="47" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="X8" library="OSSI" package="DF13A-8P" value="DF13DF13A-8P-1.25H" x="68" y="25" smashed="yes" rot="R270">
+<attribute name="NAME" x="75" y="31" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="73.635" y="31" size="1.27" layer="27" rot="R270"/>
+</element>
 <element name="H5" library="OSSI" package="2.1-PAD-ROUND" value="MOUNT-PAD-ROUND2.1" x="69" y="2"/>
 <element name="H6" library="OSSI" package="2.1-PAD-ROUND" value="MOUNT-PAD-ROUND2.1" x="13" y="2"/>
 <element name="H9" library="OSSI" package="2.1-PAD-ROUND" value="MOUNT-PAD-ROUND2.1" x="13" y="80"/>
 <element name="H10" library="OSSI" package="2.1-PAD-ROUND" value="MOUNT-PAD-ROUND2.1" x="80" y="69"/>
 <element name="H11" library="OSSI" package="2.1-PAD-ROUND" value="MOUNT-PAD-ROUND2.1" x="69" y="80"/>
 <element name="H12" library="OSSI" package="2.1-PAD-ROUND" value="MOUNT-PAD-ROUND2.1" x="80" y="13"/>
-<element name="X1" library="OSSI" package="ESQ-126-XX-X-D" value="ESQ-126-38-G-D" x="3" y="41" rot="R180"/>
-<element name="R39" library="OSSI" package="WSL1206" value="511" x="79.366453125" y="8.78613125" rot="R270"/>
-<element name="C43" library="OSSI" package="C0805(2012)" value="" x="77.4816125" y="8.3522625" rot="R90"/>
+<element name="X1" library="OSSI" package="ESQ-126-XX-X-D" value="ESQ-126-38-G-D" x="3" y="41" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.445" y="4.17" size="1.27" layer="25" font="vector" rot="R180"/>
+<attribute name="VALUE" x="7.445" y="6.075" size="1.778" layer="27" rot="R180"/>
+</element>
+<element name="R39" library="OSSI" package="WSL1206" value="DNP" x="79.366453125" y="8.78613125" smashed="yes" rot="R270">
+<attribute name="NAME" x="80.636453125" y="11.96113125" size="1.27" layer="25" font="vector" rot="R270"/>
+<attribute name="VALUE" x="76.826453125" y="12.59613125" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="C43" library="OSSI" package="C0805(2012)" value="DNP" x="77.4816125" y="8.3522625" smashed="yes" rot="R90">
+<attribute name="NAME" x="76.4656125" y="7.4632625" size="1.27" layer="25" font="vector" rot="R90"/>
+<attribute name="VALUE" x="79.7676125" y="7.4632625" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="U$1" library="OSSI" package="OSSILOGO1010" value="OSSILOGO-10" x="49.53" y="16.51"/>
-<element name="TP1" library="OSSI" package="TP-13" value="TP" x="30.48" y="16.530325"/>
-<element name="TP2" library="OSSI" package="TP-13" value="TP" x="15.16253125" y="16.614140625"/>
-<element name="TP3" library="OSSI" package="TP-13" value="TP" x="15.24" y="21.59"/>
-<element name="TP4" library="OSSI" package="TP-13" value="TP" x="15.262859375" y="65.36563125"/>
-<element name="TP5" library="OSSI" package="TP-13" value="TP" x="41.93666875" y="16.435071875"/>
+<element name="TP1" library="OSSI" package="TP-13" value="TP" x="30.48" y="16.530325" smashed="yes">
+<attribute name="NAME" x="29.464" y="17.800325" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="30.48" y="16.530325" size="0.0254" layer="27"/>
+</element>
+<element name="TP2" library="OSSI" package="TP-13" value="TP" x="15.16253125" y="16.614140625" smashed="yes">
+<attribute name="NAME" x="14.14653125" y="17.884140625" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="15.16253125" y="16.614140625" size="0.0254" layer="27"/>
+</element>
+<element name="TP3" library="OSSI" package="TP-13" value="TP" x="15.24" y="21.59" smashed="yes">
+<attribute name="NAME" x="14.224" y="22.86" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="15.24" y="21.59" size="0.0254" layer="27"/>
+</element>
+<element name="TP4" library="OSSI" package="TP-13" value="TP" x="15.262859375" y="65.36563125" smashed="yes">
+<attribute name="NAME" x="14.246859375" y="66.63563125" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="15.262859375" y="65.36563125" size="0.0254" layer="27"/>
+</element>
+<element name="TP5" library="OSSI" package="TP-13" value="TP" x="41.93666875" y="16.435071875" smashed="yes">
+<attribute name="NAME" x="40.92066875" y="17.705071875" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="41.93666875" y="16.435071875" size="0.0254" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="VSOLAR">

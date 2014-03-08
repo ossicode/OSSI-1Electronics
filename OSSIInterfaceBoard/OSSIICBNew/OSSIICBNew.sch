@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -14412,8 +14412,8 @@ DIN A3, landscape with extra doc field</description>
 <part name="VBAT2" library="OSSI" deviceset="VBAT" device=""/>
 <part name="VSOLAR7" library="OSSI" deviceset="VSOLAR" device=""/>
 <part name="STRUT_GND2" library="OSSI" deviceset="STRUT_GND" device=""/>
-<part name="R39" library="OSSI" deviceset="R" device="WSL1206" value="511"/>
-<part name="C43" library="OSSI" deviceset="C" device="0805(2012)"/>
+<part name="R39" library="OSSI" deviceset="R" device="WSL1206" value="DNP"/>
+<part name="C43" library="OSSI" deviceset="C" device="0805(2012)" value="DNP"/>
 <part name="GND37" library="OSSI" deviceset="GND" device=""/>
 <part name="U$1" library="OSSI" deviceset="OSSILOGO" device="-10"/>
 <part name="TP1" library="OSSI" deviceset="TP" device=""/>
@@ -14836,7 +14836,7 @@ DIN A3, landscape with extra doc field</description>
 <instances>
 <instance part="H1" gate="G$1" x="129.54" y="66.04"/>
 <instance part="H2" gate="G$1" x="129.54" y="55.88"/>
-<instance part="H3" gate="G$1" x="144.78" y="66.04"/>
+<instance part="H3" gate="G$1" x="165.1" y="66.04"/>
 <instance part="H4" gate="G$1" x="144.78" y="43.18"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="287.02" y="0"/>
