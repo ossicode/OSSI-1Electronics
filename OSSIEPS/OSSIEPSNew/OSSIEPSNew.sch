@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -15570,6 +15570,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <sheets>
 <sheet>
 <plain>
+<text x="111.76" y="101.6" size="1.778" layer="94">Chassis ( Satellite Sturucture ) is conneced only to EPS module to prevent the loop path and via resistor and capacitor to protect ESD when the chassis is touched.</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0"/>
@@ -15991,6 +15992,10 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <text x="261.62" y="101.6" size="1.778" layer="94">1M pulldown added!!!</text>
 <text x="261.62" y="127" size="1.778" layer="94">To make sure OUT is zero</text>
 <text x="261.62" y="99.06" size="1.778" layer="94">To make sure OUT is zero</text>
+<text x="83.82" y="101.6" size="1.778" layer="94">pull downs are needed to prevent the FET from fault turn on</text>
+<text x="162.56" y="167.64" size="1.778" layer="94">pull ups are needed to prevent the MAX890 from fault turn on</text>
+<text x="243.84" y="154.94" size="1.778" layer="94">we set the current value to cut the nichrome wire not ony cut the fishing wire</text>
+<text x="243.84" y="152.4" size="1.778" layer="94">This setup will make sure that antennae are deployed</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -16289,6 +16294,9 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <text x="129.54" y="119.38" size="1.778" layer="94">charge supercap when Vin &gt; 3.6V</text>
 <text x="104.14" y="68.58" size="1.778" layer="94">Power to supercap charger off by default</text>
 <text x="114.3" y="149.86" size="1.778" layer="94">30K added</text>
+<text x="40.64" y="231.14" size="1.778" layer="94">For measuring currents but normally soldered </text>
+<text x="30.48" y="205.74" size="1.778" layer="94">For measuring currents but normally soldered </text>
+<text x="233.68" y="195.58" size="1.778" layer="94" rot="R90">For measuring currents but normally soldered </text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -17074,7 +17082,7 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <segment>
 <pinref part="U8" gate="G$1" pin="P$5"/>
 <wire x1="157.48" y1="180.34" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
-<label x="149.86" y="180.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="149.86" y="180.34" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="R38" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="180.34" x2="149.86" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="195.58" x2="152.4" y2="180.34" width="0.1524" layer="91"/>
@@ -17324,8 +17332,8 @@ P-Channel Switch with Thermal Shutdown BY MAXIM</description>
 <net name="BUS_CS" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="P$1"/>
-<wire x1="375.92" y1="205.74" x2="375.92" y2="210.82" width="0.1524" layer="91"/>
-<label x="375.92" y="210.82" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="375.92" y1="205.74" x2="375.92" y2="220.98" width="0.1524" layer="91"/>
+<label x="375.92" y="220.98" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
