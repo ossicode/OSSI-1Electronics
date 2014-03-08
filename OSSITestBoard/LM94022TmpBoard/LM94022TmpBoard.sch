@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -457,6 +457,7 @@ DIN A4, landscape with extra doc field</description>
 <sheet>
 <plain>
 <text x="104.14" y="124.46" size="1.778" layer="94">GS1 = 1 / GS0 = 0 -&gt; Gain = -10.9mV / C</text>
+<text x="91.44" y="60.96" size="1.778" layer="94">Temp measure board for Bat and Supercap. Analog output module</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

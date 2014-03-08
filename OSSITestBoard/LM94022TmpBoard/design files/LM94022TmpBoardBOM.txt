@@ -1,0 +1,9 @@
+Part	Value	Attributes	Package	Description	Part Num
+C1	100nF		C0603(1608)		*
+C2	100nF		C0603(1608)		*
+JP1	JP2		JP2SMD0603		*
+JP2	JP2		JP2SMD0603		*
+U1	LM94022		SC70-5	LM94022 Temp Sensor From TI	*
+X1	P-PAD-S		P-PAD-S		*
+X2	P-PAD-S		P-PAD-S		*
+X3	P-PAD-S		P-PAD-S		*
