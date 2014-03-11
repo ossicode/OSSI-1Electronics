@@ -19098,15 +19098,15 @@ Source: www.kingbright.com</description>
 <text x="322.58" y="137.16" size="1.778" layer="94">post impedance matching</text>
 <text x="269.24" y="55.88" size="1.778" layer="94">post impedance matching</text>
 <text x="78.74" y="200.66" size="1.778" layer="94">for VAPC of PA </text>
-<text x="40.64" y="236.22" size="1.778" layer="94">set to 2.8V</text>
-<text x="10.16" y="226.06" size="1.778" layer="94">Use DAC to change the divider voltage point</text>
+<text x="30.48" y="236.22" size="1.778" layer="94">set to 2.8V</text>
+<text x="7.62" y="226.06" size="1.778" layer="94">Use DAC to change the divider voltage point</text>
 <text x="27.94" y="147.32" size="1.778" layer="94">0dbm </text>
 <text x="292.1" y="162.56" size="1.778" layer="94">1Watt </text>
 <text x="320.04" y="215.9" size="1.778" layer="94">also check 23.7k / 75k combination</text>
 <text x="185.42" y="121.92" size="1.778" layer="94">important!!</text>
 <text x="241.3" y="160.02" size="1.778" layer="94">important!!</text>
 <text x="233.68" y="165.1" size="1.778" layer="94">important!!</text>
-<text x="73.66" y="236.22" size="1.778" layer="94" rot="R90">chage this if resistance affects</text>
+<text x="88.9" y="236.22" size="1.778" layer="94" rot="R180">chage R14 value if output affects</text>
 <text x="175.26" y="208.28" size="1.778" layer="94">pull down!!</text>
 <wire x1="111.76" y1="91.44" x2="111.76" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="111.76" y1="25.4" x2="205.74" y2="25.4" width="0.1524" layer="94" style="shortdash"/>
@@ -19128,8 +19128,8 @@ Source: www.kingbright.com</description>
 <text x="223.52" y="124.46" size="1.778" layer="94">Better to have trimmper cap for c21 / c22</text>
 <text x="30.48" y="160.02" size="1.778" layer="94" rot="R90">Eval board settng is 13nH &amp; 10pF</text>
 <text x="322.58" y="190.5" size="1.778" layer="94">Set VCOMMS_PA to 3.3~3.4V</text>
-<text x="78.74" y="259.08" size="1.778" layer="94">Current drive capability should be larger!!!</text>
-<text x="78.74" y="254" size="2.54" layer="94">OPA347 is changed to LM7321 and a jumper wire is used to complete the circuit!!</text>
+<text x="132.08" y="241.3" size="1.778" layer="94">Current drive capability should be larger!!!</text>
+<text x="78.74" y="254" size="2.54" layer="94">OPA347 is supposed to be configured as unity gain buffer.</text>
 <text x="106.68" y="205.74" size="1.778" layer="94">Set to 2.8V for 1W RF power and best efficiency!!!</text>
 <text x="200.66" y="93.98" size="1.778" layer="94">Use Tantal for larger RF out</text>
 <text x="256.54" y="190.5" size="1.778" layer="94">Use Tantal for larger RF out</text>
@@ -19143,6 +19143,9 @@ Source: www.kingbright.com</description>
 <text x="238.76" y="203.2" size="1.778" layer="94">Set current limit = ~ 1.6A</text>
 <text x="289.56" y="27.94" size="3.302" layer="94" font="vector">OPEN SOURSE SATELLITE INITIATIVE</text>
 <text x="289.56" y="25.4" size="2.54" layer="94" font="vector">http://opensat.cc</text>
+<text x="78.74" y="248.92" size="2.54" layer="94">forgot the connection between pin 4 and pin 1, so is jumper wired.</text>
+<text x="104.14" y="218.44" size="1.778" layer="91">Connect pin 4 and 1!!!!!</text>
+<text x="132.08" y="238.76" size="1.778" layer="94">LM7321 might better</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -19252,10 +19255,10 @@ Source: www.kingbright.com</description>
 <instance part="GND45" gate="1" x="370.84" y="83.82"/>
 <instance part="VCCRF3" gate="G$1" x="38.1" y="195.58"/>
 <instance part="VCCRF4" gate="G$1" x="129.54" y="81.28"/>
-<instance part="R16" gate="G$1" x="63.5" y="241.3" rot="R270"/>
-<instance part="R13" gate="G$1" x="63.5" y="220.98" rot="R270"/>
+<instance part="R16" gate="G$1" x="48.26" y="241.3" rot="R270"/>
+<instance part="R13" gate="G$1" x="48.26" y="220.98" rot="R270"/>
 <instance part="C39" gate="G$1" x="81.28" y="223.52"/>
-<instance part="GND63" gate="1" x="63.5" y="208.28"/>
+<instance part="GND63" gate="1" x="48.26" y="208.28"/>
 <instance part="GND64" gate="1" x="99.06" y="210.82"/>
 <instance part="U4" gate="A" x="101.6" y="228.6"/>
 <instance part="C47" gate="G$1" x="104.14" y="236.22" rot="R90"/>
@@ -19538,11 +19541,11 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="GND63" gate="1" pin="GND"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="210.82" x2="63.5" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="210.82" x2="48.26" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="C39" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="218.44" x2="81.28" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="215.9" x2="63.5" y2="215.9" width="0.1524" layer="91"/>
-<junction x="63.5" y="215.9"/>
+<wire x1="81.28" y1="215.9" x2="48.26" y2="215.9" width="0.1524" layer="91"/>
+<junction x="48.26" y="215.9"/>
 </segment>
 <segment>
 <pinref part="GND64" gate="1" pin="GND"/>
@@ -19957,8 +19960,8 @@ Source: www.kingbright.com</description>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="246.38" x2="63.5" y2="251.46" width="0.1524" layer="91"/>
-<label x="63.5" y="251.46" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="48.26" y1="246.38" x2="48.26" y2="251.46" width="0.1524" layer="91"/>
+<label x="48.26" y="251.46" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="99.06" y1="238.76" x2="99.06" y2="236.22" width="0.1524" layer="91"/>
@@ -20116,14 +20119,14 @@ Source: www.kingbright.com</description>
 <net name="PA_BIAS" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="231.14" x2="63.5" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="231.14" x2="48.26" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="231.14" x2="63.5" y2="226.06" width="0.1524" layer="91"/>
-<junction x="63.5" y="231.14"/>
-<wire x1="63.5" y1="231.14" x2="30.48" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="231.14" x2="48.26" y2="226.06" width="0.1524" layer="91"/>
+<junction x="48.26" y="231.14"/>
+<wire x1="48.26" y1="231.14" x2="30.48" y2="231.14" width="0.1524" layer="91"/>
 <label x="30.48" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="231.14" x2="68.58" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="231.14" x2="68.58" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TX_ON" class="0">
