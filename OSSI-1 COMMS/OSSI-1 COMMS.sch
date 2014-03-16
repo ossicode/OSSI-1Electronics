@@ -19135,9 +19135,9 @@ Source: www.kingbright.com</description>
 <text x="256.54" y="190.5" size="1.778" layer="94">Use Tantal for larger RF out</text>
 <text x="223.52" y="121.92" size="1.778" layer="94">10pF +6pF  is better than 16 pF why???</text>
 <text x="299.72" y="116.84" size="1.778" layer="94">tune RF switch to lower the insertion loss. currently around 1.2 dB loss!!!!</text>
-<text x="193.04" y="50.8" size="1.778" layer="91">1500pF</text>
-<text x="180.34" y="50.8" size="1.778" layer="91">47nH</text>
-<text x="116.84" y="45.72" size="1.778" layer="91">8.2nH</text>
+<text x="193.04" y="45.72" size="1.778" layer="91">1500pF</text>
+<text x="180.34" y="45.72" size="1.778" layer="91">47nH</text>
+<text x="116.84" y="45.72" size="1.778" layer="91">15pF</text>
 <text x="116.84" y="43.18" size="1.778" layer="91">Final Value but the result will be similar</text>
 <text x="48.26" y="66.04" size="1.778" layer="91">12pF</text>
 <text x="238.76" y="203.2" size="1.778" layer="94">Set current limit = ~ 1.6A</text>
