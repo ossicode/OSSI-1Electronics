@@ -11,7 +11,7 @@ AutoSaveProject=1
 [Win_1]
 Type="Board Editor"
 Loc="492 231 1091 630"
-State=0
+State=2
 Number=2
 File="C:/Users/hojun/Documents/eagle/OSSI-1Electronics/OSSI-1 COMMS/OSSI-1 COMMS.brd"
 View="-2.06758 -2.91711 102.847 97.3691"
