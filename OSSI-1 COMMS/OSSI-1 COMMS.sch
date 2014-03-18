@@ -19146,6 +19146,7 @@ Source: www.kingbright.com</description>
 <text x="78.74" y="248.92" size="2.54" layer="94">forgot the connection between pin 4 and pin 1, so is jumper wired.</text>
 <text x="104.14" y="218.44" size="1.778" layer="91">Connect pin 4 and 1!!!!!</text>
 <text x="132.08" y="238.76" size="1.778" layer="94">LM7321 might better</text>
+<text x="292.1" y="218.44" size="1.778" layer="91">10uF is used</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
