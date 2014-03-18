@@ -20255,11 +20255,12 @@ Source: www.kingbright.com</description>
 <text x="271.78" y="73.66" size="1.778" layer="94">sync word detection eyediagram test?</text>
 <text x="243.84" y="88.9" size="1.778" layer="94">0.8Vpp out with ac coupled capacitor</text>
 <text x="243.84" y="223.52" size="1.778" layer="94">0.8Vpp out with ac coupled capacitor</text>
-<text x="193.04" y="259.08" size="1.778" layer="94">22uF added!!</text>
 <text x="68.58" y="243.84" size="1.778" layer="94">110 is used</text>
 <text x="71.12" y="127" size="1.778" layer="94">110 is used</text>
 <text x="289.56" y="27.94" size="3.302" layer="94" font="vector">OPEN SOURSE SATELLITE INITIATIVE</text>
 <text x="289.56" y="25.4" size="2.54" layer="94" font="vector">http://opensat.cc</text>
+<text x="193.04" y="261.62" size="1.778" layer="91">22uF is added to VCCRF on the board </text>
+<text x="195.58" y="132.08" size="1.778" layer="91">22uF is added to VCCRF on the board </text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
