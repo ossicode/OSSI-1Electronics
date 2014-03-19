@@ -1,7 +1,7 @@
 ### OSSI-1 Satellite Beacon
 
-**Beacon outputs 100mW VHF signas to transmit OSSI-1 satellite health data**  
-**Beacon transmits continuously**
+**Beacon outputs 100mW VHF signas to transmit OSSI-1 satellite health data.**  
+**Beacon transmits continuously.**
 
 Mainly Eagle 6.1 / 6.5 version  
 Please, see the comments from the schematic file for more information.  
