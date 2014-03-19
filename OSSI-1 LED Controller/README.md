@@ -1,6 +1,6 @@
 ### OSSI-1 Satellite LED Controller Module
 
-LED Controller Module is responsible for controlling 44W high power LEDs powered from supercapacitors.  
+**LED Controller Module is responsible for controlling 44W high power LEDs powered from supercapacitors.**  
 
 Mainly Eagle 6.1 / 6.5 version  
 Please, see the comments from the schematic file for more information.  
