@@ -1,4 +1,5 @@
-### OSSI-1 Satellite Electronics Final Version (Launched on 19th April 2013)
+### OSSI-1 Satellite Electronics Final Version 
+## Launched on 19th April 2013
 
 **Check for modules for images, schematics, and BOMs.**
 
