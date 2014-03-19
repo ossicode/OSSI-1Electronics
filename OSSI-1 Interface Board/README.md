@@ -1,6 +1,6 @@
 ### OSSI-1 Satellite Interface Board
 
-**The interface board is used to connect all solar paneles and deliver the power to the EPS**  
+**The interface board is used to connect all solar paneles and deliver the power to the EPS.**  
 **As the board is the the on the top, some signals can be measured for inspection.**
 
 Mainly Eagle 6.1 / 6.5 version  
