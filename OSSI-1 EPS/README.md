@@ -9,6 +9,4 @@ Block diagram and rationale behind the design will be provided with video turori
 
 Open Source Satellite Initiative http://opensat.cc
 
-![Alt text]( https://raw.github.com/ossicode/OSSI-1Electronics/master/OSSI-1%20Battery%20Board/image/Battery_T.jpg )
-
-https://raw.github.com/ossicode/OSSI-1Electronics/master/OSSI-1%20EPS/image/EPS_Switch_T.jpg
+![Alt text]( https://raw.github.com/ossicode/OSSI-1Electronics/master/OSSI-1%20EPS/image/EPS_Switch_T.jpg )
