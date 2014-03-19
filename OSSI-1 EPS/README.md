@@ -1,7 +1,7 @@
 ### OSSI-1 Satellite EPS
 
 **EPS is the power supply board for the satellite.** 
-**Multiple power sources are OR-ed for reliabilty.**
+**Multiple power sources are OR-ed by ideal diode for reliabilty.**
 
 Mainly Eagle 6.1 / 6.5 version  
 Please, see the comments from the schematic file for more information.  
