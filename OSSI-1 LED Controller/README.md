@@ -8,4 +8,4 @@ Block diagram and rationale behind the design will be provided with video turori
 
 Open Source Satellite Initiative http://opensat.cc
 
-![Alt text]( https://raw.github.com/ossicode/OSSI-1Electronics/master/OSSI-1%20OBC/image/LED_T.jpg )
+![Alt text]( https://raw.github.com/ossicode/OSSI-1Electronics/master/OSSI-1%20LED%20Controller/image/LED_T.jpg )
